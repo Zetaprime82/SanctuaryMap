@@ -445,7 +445,7 @@ var events = [
   },
   {
     "id": 0,
-    "name": "World Boss</br>Ashava the Pestilent, Avarice the Gold-cursed, and the Wandering Death have occasionally been seen at this location.</br>Slay the World Boss",
+    "name": "World Boss</br>Ashava the Pestilent, Avarice the Gold-cursed, </br>and the Wandering Death have occasionally been seen at this location.",
     "x": -907.619,
     "y": -140.395
   },
