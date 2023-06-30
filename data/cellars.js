@@ -1,752 +1,902 @@
 var cellars = [
   {
-    "x": -106.2446,
-    "y": 113.14173,
-    "name": "Iceworn Cellar"
+    "id": 0,
+    "name": "Iceworn Cellar",
+    "x": -1064.28,
+    "y": 181.476
   },
   {
-    "x": -77.35454,
-    "y": 65.705475,
-    "name": "Arid Tunnel"
+    "id": 0,
+    "name": "Arid Tunnel",
+    "x": -804.701,
+    "y": -886.813
   },
   {
-    "x": -79.05744,
-    "y": 66.80172,
-    "name": "Cutpurse&#39;s Hoard"
+    "id": 0,
+    "name": "Cutpurse&#39;s Hoard",
+    "x": -796.21,
+    "y": -847.635
   },
   {
-    "x": -64.69252,
-    "y": 60.86885,
-    "name": "Briny Cavern"
+    "id": 0,
+    "name": "Briny Cavern",
+    "x": -914.228,
+    "y": -1131.73
   },
   {
-    "x": -57.97998,
-    "y": 71.475975,
-    "name": "Fetid Pit"
+    "id": 0,
+    "name": "Fetid Pit",
+    "x": -1156.64,
+    "y": -1077.22
   },
   {
-    "x": -68.20933,
-    "y": 76.55613,
-    "name": "Grain Storage"
+    "id": 0,
+    "name": "Grain Storage",
+    "x": -1084.57,
+    "y": -862.943
   },
   {
-    "x": -74.99328,
-    "y": 75.554474,
-    "name": "Abahru Sinkhole"
+    "id": 0,
+    "name": "Abahru Sinkhole",
+    "x": -975.6,
+    "y": -782.012
   },
   {
-    "x": -83.59375,
-    "y": 83.496056,
-    "name": "Rotting Pit"
+    "id": 0,
+    "name": "Rotting Pit",
+    "x": -966.378,
+    "y": -550.484
   },
   {
-    "x": -87.92427,
-    "y": 94.519905,
-    "name": "Steamy Chasm"
+    "id": 0,
+    "name": "Steamy Chasm",
+    "x": -1060.06,
+    "y": -335.579
   },
   {
-    "x": -95.07553,
-    "y": 127.063515,
-    "name": "Savina Hideout"
+    "id": 0,
+    "name": "Savina Hideout",
+    "x": -1415.46,
+    "y": 220.004
   },
   {
-    "x": -105.66383,
-    "y": 126.42317,
-    "name": "Disturbed Grave"
+    "id": 0,
+    "name": "Disturbed Grave",
+    "x": -1258.3,
+    "y": 359.239
   },
   {
-    "x": -107.53651,
-    "y": 129.62619,
-    "name": "Flooded Mine"
+    "id": 0,
+    "name": "Flooded Mine",
+    "x": -1276.92,
+    "y": 430.28
   },
   {
-    "x": -108.38144,
-    "y": 119.83477,
-    "name": "Hermit&#39;s Abode"
+    "id": 0,
+    "name": "Hermit&#39;s Abode",
+    "x": -1128.05,
+    "y": 305.062
   },
   {
-    "x": -102.44796,
-    "y": 108.85067,
-    "name": "Oleg&#39;s Hideout"
+    "id": 0,
+    "name": "Oleg&#39;s Hideout",
+    "x": -1057.36,
+    "y": 68.2778
   },
   {
-    "x": -90.68031,
-    "y": 109.72919,
-    "name": "Blacklung Mine"
+    "id": 0,
+    "name": "Blacklung Mine",
+    "x": -1234.36,
+    "y": -84.1303
   },
   {
-    "x": -96.48416,
-    "y": 114.53063,
-    "name": "Frostbite Delve"
+    "id": 0,
+    "name": "Frostbite Delve",
+    "x": -1220.33,
+    "y": 64.3051
   },
   {
-    "x": -87.88056,
-    "y": 111.50564,
-    "name": "Lakeside Retreat"
+    "id": 0,
+    "name": "Lakeside Retreat",
+    "x": -1298.41,
+    "y": -98.4526
   },
   {
-    "x": -86.97106,
-    "y": 107.69038,
-    "name": "Secluded Cabin"
+    "id": 0,
+    "name": "Secluded Cabin",
+    "x": -1257.74,
+    "y": -164.582
   },
   {
-    "x": -82.7984,
-    "y": 123.84447,
-    "name": "Icy Grave"
+    "id": 0,
+    "name": "Icy Grave",
+    "x": -1542.24,
+    "y": 3.1141
   },
   {
-    "x": -78.539024,
-    "y": 109.8354,
-    "name": "Frosty Mine"
+    "id": 0,
+    "name": "Frosty Mine",
+    "x": -1405.78,
+    "y": -252.577
   },
   {
-    "x": -75.23795,
-    "y": 125.73649,
-    "name": "Gambler&#39;s Hideout"
+    "id": 0,
+    "name": "Gambler&#39;s Hideout",
+    "x": -1674.54,
+    "y": -76.2231
   },
   {
-    "x": -98.278305,
-    "y": 144.59003,
-    "name": "Gruesome Storage"
+    "id": 0,
+    "name": "Gruesome Storage",
+    "x": -1615.94,
+    "y": 510.138
   },
   {
-    "x": -83.37651,
-    "y": 130.30197,
-    "name": "Geyser Sinkhole"
+    "id": 0,
+    "name": "Geyser Sinkhole",
+    "x": -1624.53,
+    "y": 101.587
   },
   {
-    "x": -96.686844,
-    "y": 140.20856,
-    "name": "Bloodstained Cellar"
+    "id": 0,
+    "name": "Bloodstained Cellar",
+    "x": -1576.89,
+    "y": 426.539
   },
   {
-    "x": -84.50913,
-    "y": 138.4707,
-    "name": "Velkhova Inn"
+    "id": 0,
+    "name": "Velkhova Inn",
+    "x": -1723.01,
+    "y": 231.772
   },
   {
-    "x": -89.70592,
-    "y": 149.87984,
-    "name": "Saint&#39;s Rest"
+    "id": 0,
+    "name": "Saint&#39;s Rest",
+    "x": -1809.96,
+    "y": 464.194
   },
   {
-    "x": -90.05393,
-    "y": 154.67116,
-    "name": "Collapsed Cavern"
+    "id": 0,
+    "name": "Collapsed Cavern",
+    "x": -1872.15,
+    "y": 536.126
   },
   {
-    "x": -85.47609,
-    "y": 148.0578,
-    "name": "Saint&#39;s Hideout"
+    "id": 0,
+    "name": "Saint&#39;s Hideout",
+    "x": -1843.66,
+    "y": 379.49
   },
   {
-    "x": -99.60471,
-    "y": 136.79477,
-    "name": "Infested Mill"
+    "id": 0,
+    "name": "Infested Mill",
+    "x": -1488.27,
+    "y": 419.598
   },
   {
-    "x": -111.11987,
-    "y": 138.50737,
-    "name": "Howling Den"
+    "id": 0,
+    "name": "Howling Den",
+    "x": -1351.07,
+    "y": 604.738
   },
   {
-    "x": -107.78465,
-    "y": 142.50835,
-    "name": "Tsepilova Larder"
+    "id": 0,
+    "name": "Tsepilova Larder",
+    "x": -1453.75,
+    "y": 614.056
   },
   {
-    "x": -56.560432,
-    "y": 98.93613,
-    "name": "Moldy Cavern"
+    "id": 0,
+    "name": "Moldy Cavern",
+    "x": -1560.85,
+    "y": -712.747
   },
   {
-    "x": -107.792984,
-    "y": 91.72812,
-    "name": "Pallid Delve</br>Cannibals guard a dark power in the crumbling mines."
+    "id": 0,
+    "name": "Pallid Delve</br>Cannibals guard a dark power in the crumbling mines.",
+    "x": -742.896,
+    "y": -96.5644
   },
   {
-    "x": -108.87361,
-    "y": 103.7261,
-    "name": "Haunted Burrow"
+    "id": 0,
+    "name": "Haunted Burrow",
+    "x": -895.699,
+    "y": 86.4882
   },
   {
-    "x": -104.27948,
-    "y": 113.29859,
-    "name": "Infested Cottage"
+    "id": 0,
+    "name": "Infested Cottage",
+    "x": -1093.98,
+    "y": 156.167
   },
   {
-    "x": -98.8407,
-    "y": 117.51162,
-    "name": "Frozen Tunnel"
+    "id": 0,
+    "name": "Frozen Tunnel",
+    "x": -1229.07,
+    "y": 139.011
   },
   {
-    "x": -106.92589,
-    "y": 117.51185,
-    "name": "Forsaken Mine"
+    "id": 0,
+    "name": "Forsaken Mine",
+    "x": -1115.91,
+    "y": 252.177
   },
   {
-    "x": -53.099953,
-    "y": 91.4889,
-    "name": "Meat Locker"
+    "id": 0,
+    "name": "Meat Locker",
+    "x": -1505.05,
+    "y": -865.415
   },
   {
-    "x": -62.945457,
-    "y": 91.63115,
-    "name": "Smugglers&#39; Underpass"
+    "id": 0,
+    "name": "Smugglers&#39; Underpass",
+    "x": -1369.24,
+    "y": -725.623
   },
   {
-    "x": -29.010979,
-    "y": 89.8315,
-    "name": "Rotting Outhouse"
+    "id": 0,
+    "name": "Rotting Outhouse",
+    "x": -1819.01,
+    "y": -1225.77
   },
   {
-    "x": -25.643303,
-    "y": 103.51471,
-    "name": "Watery Sinkhole"
+    "id": 0,
+    "name": "Watery Sinkhole",
+    "x": -2057.66,
+    "y": -1081.39
   },
   {
-    "x": -37.758255,
-    "y": 86.38773,
-    "name": "Forgotten Shack"
+    "id": 0,
+    "name": "Forgotten Shack",
+    "x": -1648.38,
+    "y": -1151.54
   },
   {
-    "x": -57.201782,
-    "y": 78.91279,
-    "name": "Lost Ritual Site"
+    "id": 0,
+    "name": "Lost Ritual Site",
+    "x": -1271.62,
+    "y": -984.024
   },
   {
-    "x": -54.39869,
-    "y": 75.36021,
-    "name": "Webbed Lode"
+    "id": 0,
+    "name": "Webbed Lode",
+    "x": -1261.13,
+    "y": -1072.98
   },
   {
-    "x": -45.41294,
-    "y": 92.57131,
-    "name": "Fisherman&#39;s Rest"
+    "id": 0,
+    "name": "Fisherman&#39;s Rest",
+    "x": -1627.79,
+    "y": -957.855
   },
   {
-    "x": -58.950874,
-    "y": 113.843414,
-    "name": "Decrepit Cellar"
+    "id": 0,
+    "name": "Decrepit Cellar",
+    "x": -1736.04,
+    "y": -470.642
   },
   {
-    "x": -66.20065,
-    "y": 113.89418,
-    "name": "Disturbed Arachnid Tunnels"
+    "id": 0,
+    "name": "Disturbed Arachnid Tunnels",
+    "x": -1635.28,
+    "y": -368.461
   },
   {
-    "x": -67.57246,
-    "y": 122.31566,
-    "name": "Wretch&#39;s Stow"
+    "id": 0,
+    "name": "Wretch&#39;s Stow",
+    "x": -1733.95,
+    "y": -231.391
   },
   {
-    "x": -60.296417,
-    "y": 140.10333,
-    "name": "Remote Shelter"
+    "id": 0,
+    "name": "Remote Shelter",
+    "x": -2084.75,
+    "y": -84.2667
   },
   {
-    "x": -68.18708,
-    "y": 147.25378,
-    "name": "Nefarious Hollow"
+    "id": 0,
+    "name": "Nefarious Hollow",
+    "x": -2074.39,
+    "y": 126.254
   },
   {
-    "x": -70.58189,
-    "y": 131.1402,
-    "name": "Hillside Storage"
+    "id": 0,
+    "name": "Hillside Storage",
+    "x": -1815.34,
+    "y": -65.7589
   },
   {
-    "x": -45.58898,
-    "y": 107.564804,
-    "name": "Infested Basement"
+    "id": 0,
+    "name": "Infested Basement",
+    "x": -1835.18,
+    "y": -745.537
   },
   {
-    "x": -39.162987,
-    "y": 120.34168,
-    "name": "Abandoned Cottage"
+    "id": 0,
+    "name": "Abandoned Cottage",
+    "x": -2103.95,
+    "y": -656.648
   },
   {
-    "x": -55.856026,
-    "y": 146.84659,
-    "name": "Overgrown Outpost"
+    "id": 0,
+    "name": "Overgrown Outpost",
+    "x": -2241.28,
+    "y": -52.035
   },
   {
-    "x": -56.993393,
-    "y": 137.17468,
-    "name": "Infested Pit"
+    "id": 0,
+    "name": "Infested Pit",
+    "x": -2089.99,
+    "y": -171.487
   },
   {
-    "x": -123.87314,
-    "y": 148.99002,
-    "name": "Flooded Burial Pit"
+    "id": 0,
+    "name": "Flooded Burial Pit",
+    "x": -1319.29,
+    "y": 929.956
   },
   {
-    "x": -136.49358,
-    "y": 137.72974,
-    "name": "Decaying Cavern"
+    "id": 0,
+    "name": "Decaying Cavern",
+    "x": -985.047,
+    "y": 948.993
   },
   {
-    "x": -131.35095,
-    "y": 148.58293,
-    "name": "Shipwreck Shack"
+    "id": 0,
+    "name": "Shipwreck Shack",
+    "x": -1208.93,
+    "y": 1028.92
   },
   {
-    "x": -138.45387,
-    "y": 148.36465,
-    "name": "Swamp Hovel"
+    "id": 0,
+    "name": "Swamp Hovel",
+    "x": -1106.46,
+    "y": 1125.28
   },
   {
-    "x": -142.17664,
-    "y": 150.99998,
-    "name": "Belfry Zakara</br>The Zakarum built this Cathedral. It honors the sea, now. "
+    "id": 0,
+    "name": "Belfry Zakara</br>The Zakarum built this Cathedral. It honors the sea, now. ",
+    "x": -1091.24,
+    "y": 1214.27
   },
   {
-    "x": -153.46234,
-    "y": 126.317215,
-    "name": "Swarmed Mineshaft"
+    "id": 0,
+    "name": "Swarmed Mineshaft",
+    "x": -587.813,
+    "y": 1026.76
   },
   {
-    "x": -131.784,
-    "y": 129.6582,
-    "name": "Slimy Cavern"
+    "id": 0,
+    "name": "Slimy Cavern",
+    "x": -937.992,
+    "y": 770.104
   },
   {
-    "x": -145.81984,
-    "y": 131.57887,
-    "name": "Bleak Basement"
+    "id": 0,
+    "name": "Bleak Basement",
+    "x": -768.424,
+    "y": 993.437
   },
   {
-    "x": -159.43782,
-    "y": 144.07936,
-    "name": "Tidal Burrow"
+    "id": 0,
+    "name": "Tidal Burrow",
+    "x": -752.783,
+    "y": 1359.0
   },
   {
-    "x": -147.10718,
-    "y": 145.38641,
-    "name": "Fetid Hive"
+    "id": 0,
+    "name": "Fetid Hive",
+    "x": -943.661,
+    "y": 1204.71
   },
   {
-    "x": -157.89468,
-    "y": 135.15048,
-    "name": "Waterlogged Grave"
+    "id": 0,
+    "name": "Waterlogged Grave",
+    "x": -649.41,
+    "y": 1212.43
   },
   {
-    "x": -149.18211,
-    "y": 136.13316,
-    "name": "Isolated Shack</br>A remote, unassuming shack, perfect for discreet meetings."
+    "id": 0,
+    "name": "Isolated Shack</br>A remote, unassuming shack, perfect for discreet meetings.",
+    "x": -785.108,
+    "y": 1104.24
   },
   {
-    "x": -145.46942,
-    "y": 136.99155,
-    "name": "Aya&#39;s Hideaway"
+    "id": 0,
+    "name": "Aya&#39;s Hideaway",
+    "x": -849.086,
+    "y": 1064.29
   },
   {
-    "x": -160.31342,
-    "y": 128.55708,
-    "name": "Shoreside Shack"
+    "id": 0,
+    "name": "Shoreside Shack",
+    "x": -523.273,
+    "y": 1154.0
   },
   {
-    "x": -151.38579,
-    "y": 112.2954,
-    "name": "Toxic Mine"
+    "id": 0,
+    "name": "Toxic Mine",
+    "x": -420.623,
+    "y": 801.442
   },
   {
-    "x": -159.34048,
-    "y": 117.92784,
-    "name": "Rotting Cave"
+    "id": 0,
+    "name": "Rotting Cave",
+    "x": -388.12,
+    "y": 991.612
   },
   {
-    "x": -140.58572,
-    "y": 118.853226,
-    "name": "Swamped Hideout"
+    "id": 0,
+    "name": "Swamped Hideout",
+    "x": -663.57,
+    "y": 742.066
   },
   {
-    "x": -135.81511,
-    "y": 107.89972,
-    "name": "Dark Catacomb"
+    "id": 0,
+    "name": "Dark Catacomb",
+    "x": -577.032,
+    "y": 521.986
   },
   {
-    "x": -156.17505,
-    "y": 102.69504,
-    "name": "Cursed Cabin"
+    "id": 0,
+    "name": "Cursed Cabin",
+    "x": -219.221,
+    "y": 734.104
   },
   {
-    "x": -149.32939,
-    "y": 100.487236,
-    "name": "Desecrated Cellar"
+    "id": 0,
+    "name": "Desecrated Cellar",
+    "x": -284.134,
+    "y": 607.389
   },
   {
-    "x": -130.46056,
-    "y": 63.88208,
-    "name": "Forlorn Cavern"
+    "id": 0,
+    "name": "Forlorn Cavern",
+    "x": -35.8905,
+    "y": -169.044
   },
   {
-    "x": -118.59818,
-    "y": 68.3303,
-    "name": "Foul Den"
+    "id": 0,
+    "name": "Foul Den",
+    "x": -264.179,
+    "y": -272.815
   },
   {
-    "x": -133.4611,
-    "y": 70.484764,
-    "name": "Raider&#39;s Mine"
+    "id": 0,
+    "name": "Raider&#39;s Mine",
+    "x": -86.3069,
+    "y": -34.634
   },
   {
-    "x": -149.41049,
-    "y": 42.327118,
-    "name": "Hakan&#39;s Hot Spring"
+    "id": 0,
+    "name": "Hakan&#39;s Hot Spring",
+    "x": 531.03,
+    "y": -205.505
   },
   {
-    "x": -141.09871,
-    "y": 27.151688,
-    "name": "Webbed Den"
+    "id": 0,
+    "name": "Webbed Den",
+    "x": 627.096,
+    "y": -534.24
   },
   {
-    "x": -153.86165,
-    "y": 37.138412,
-    "name": "Marauder&#39;s Hideaway"
+    "id": 0,
+    "name": "Marauder&#39;s Hideaway",
+    "x": 665.953,
+    "y": -215.828
   },
   {
-    "x": -139.2453,
-    "y": 41.42169,
-    "name": "Wicked Sanctum"
+    "id": 0,
+    "name": "Wicked Sanctum",
+    "x": 401.427,
+    "y": -360.453
   },
   {
-    "x": -133.12083,
-    "y": 34.35971,
-    "name": "Festering Burrow"
+    "id": 0,
+    "name": "Festering Burrow",
+    "x": 414.549,
+    "y": -545.015
   },
   {
-    "x": -119.76956,
-    "y": 30.965607,
-    "name": "Forgotten Outpost"
+    "id": 0,
+    "name": "Forgotten Outpost",
+    "x": 275.185,
+    "y": -779.389
   },
   {
-    "x": -128.08942,
-    "y": 28.687836,
-    "name": "Ravan&#39;s Folly"
+    "id": 0,
+    "name": "Ravan&#39;s Folly",
+    "x": 423.513,
+    "y": -694.822
   },
   {
-    "x": -127.65605,
-    "y": 23.602036,
-    "name": "Sodden Burrow"
+    "id": 0,
+    "name": "Sodden Burrow",
+    "x": 488.63,
+    "y": -772.07
   },
   {
-    "x": -126.63085,
-    "y": 58.822968,
-    "name": "Ravaged Ruins"
+    "id": 0,
+    "name": "Ravaged Ruins",
+    "x": -18.6831,
+    "y": -293.455
   },
   {
-    "x": -111.27902,
-    "y": 33.38034,
-    "name": "Festering Tunnels"
+    "id": 0,
+    "name": "Festering Tunnels",
+    "x": 122.551,
+    "y": -864.428
   },
   {
-    "x": -103.7233,
-    "y": 42.008987,
-    "name": "Man-eaters&#39; Lair"
+    "id": 0,
+    "name": "Man-eaters&#39; Lair",
+    "x": -103.971,
+    "y": -849.411
   },
   {
-    "x": -118.17825,
-    "y": 41.163956,
-    "name": "Foul Grotto"
+    "id": 0,
+    "name": "Foul Grotto",
+    "x": 110.173,
+    "y": -658.922
   },
   {
-    "x": -120.027954,
-    "y": 53.48697,
-    "name": "Bone Dust Hollow"
+    "id": 0,
+    "name": "Bone Dust Hollow",
+    "x": -36.4151,
+    "y": -460.556
   },
   {
-    "x": -111.38365,
-    "y": 58.273666,
-    "name": "Blighted Burrow"
+    "id": 0,
+    "name": "Blighted Burrow",
+    "x": -224.4,
+    "y": -514.548
   },
   {
-    "x": -140.09206,
-    "y": 53.976456,
-    "name": "Derelict Tunnel"
+    "id": 0,
+    "name": "Derelict Tunnel",
+    "x": 237.558,
+    "y": -172.881
   },
   {
-    "x": -151.9674,
-    "y": 91.83666,
-    "name": "Commandeered Lodge"
+    "id": 0,
+    "name": "Commandeered Lodge",
+    "x": -126.135,
+    "y": 523.235
   },
   {
-    "x": -145.30267,
-    "y": 82.22484,
-    "name": "Rocky Burrow"
+    "id": 0,
+    "name": "Rocky Burrow",
+    "x": -84.8866,
+    "y": 295.423
   },
   {
-    "x": -136.11795,
-    "y": 97.98981,
-    "name": "Holy Refuge"
+    "id": 0,
+    "name": "Holy Refuge",
+    "x": -434.091,
+    "y": 387.522
   },
   {
-    "x": -121.17261,
-    "y": 104.56389,
-    "name": "Feeding Den"
+    "id": 0,
+    "name": "Feeding Den",
+    "x": -735.284,
+    "y": 270.355
   },
   {
-    "x": -114.38916,
-    "y": 106.72355,
-    "name": "Mountain Storeroom"
+    "id": 0,
+    "name": "Mountain Storeroom",
+    "x": -860.455,
+    "y": 205.639
   },
   {
-    "x": -127.89926,
-    "y": 112.10268,
-    "name": "Bloodpox Infestation"
+    "id": 0,
+    "name": "Bloodpox Infestation",
+    "x": -746.651,
+    "y": 470.019
   },
   {
-    "x": -119.75005,
-    "y": 121.17212,
-    "name": "Cinder Shack"
+    "id": 0,
+    "name": "Cinder Shack",
+    "x": -987.649,
+    "y": 482.899
   },
   {
-    "x": -126.53372,
-    "y": 41.468674,
-    "name": "Penitent Temple"
+    "id": 0,
+    "name": "Penitent Temple",
+    "x": 222.854,
+    "y": -537.711
   },
   {
-    "x": -133.49208,
-    "y": 49.142563,
-    "name": "Knight&#39;s Lodging"
+    "id": 0,
+    "name": "Knight&#39;s Lodging",
+    "x": 212.839,
+    "y": -332.913
   },
   {
-    "x": -133.20544,
-    "y": 57.134293,
-    "name": "Deserted Textile Shop"
+    "id": 0,
+    "name": "Deserted Textile Shop",
+    "x": 96.9724,
+    "y": -225.07
   },
   {
-    "x": -128.41307,
-    "y": 43.309784,
-    "name": "City Armory"
+    "id": 0,
+    "name": "City Armory",
+    "x": 223.389,
+    "y": -485.638
   },
   {
-    "x": -48.459557,
-    "y": 125.27212,
-    "name": "Garan Undercroft"
+    "id": 0,
+    "name": "Garan Undercroft",
+    "x": -2042.84,
+    "y": -457.522
   },
   {
-    "x": -54.0223,
-    "y": 117.73286,
-    "name": "Ancient Grave"
+    "id": 0,
+    "name": "Ancient Grave",
+    "x": -1859.46,
+    "y": -485.186
   },
   {
-    "x": -45.392868,
-    "y": 114.812065,
-    "name": "Scorched Cellar"
+    "id": 0,
+    "name": "Scorched Cellar",
+    "x": -1939.36,
+    "y": -646.847
   },
   {
-    "x": -43.596718,
-    "y": 130.7634,
-    "name": "Drowned Burrow"
+    "id": 0,
+    "name": "Drowned Burrow",
+    "x": -2187.76,
+    "y": -448.726
   },
   {
-    "x": -148.7425,
-    "y": 120.99714,
-    "name": "Shadowed Plunge</br>Snake Cultists sacrifice the innocent."
+    "id": 0,
+    "name": "Shadowed Plunge</br>Snake Cultists sacrifice the innocent.",
+    "x": -579.412,
+    "y": 886.238
   },
   {
-    "x": -122.82472,
-    "y": 130.24698,
-    "name": "Tormented Pit"
+    "id": 0,
+    "name": "Tormented Pit",
+    "x": -1071.63,
+    "y": 652.948
   },
   {
-    "x": -118.85576,
-    "y": 137.09013,
-    "name": "Sunken Hut"
+    "id": 0,
+    "name": "Sunken Hut",
+    "x": -1222.96,
+    "y": 693.176
   },
   {
-    "x": -126.41319,
-    "y": 138.57527,
-    "name": "Swamp Nest"
+    "id": 0,
+    "name": "Swamp Nest",
+    "x": -1137.97,
+    "y": 819.739
   },
   {
-    "x": -119.89874,
-    "y": 146.33026,
-    "name": "Mire Hideout"
+    "id": 0,
+    "name": "Mire Hideout",
+    "x": -1337.69,
+    "y": 837.102
   },
   {
-    "x": -92.54491,
-    "y": 84.306435,
-    "name": "Blood-soaked Spence"
+    "id": 0,
+    "name": "Blood-soaked Spence",
+    "x": -852.437,
+    "y": -413.858
   },
   {
-    "x": -69.333694,
-    "y": 87.59809,
-    "name": "Decrepit Hive"
+    "id": 0,
+    "name": "Decrepit Hive",
+    "x": -1223.38,
+    "y": -692.659
   },
   {
-    "x": -96.79498,
-    "y": 94.65011,
-    "name": "Desolate Vault"
+    "id": 0,
+    "name": "Desolate Vault",
+    "x": -937.725,
+    "y": -209.599
   },
   {
-    "x": -97.90788,
-    "y": 87.43626,
-    "name": "Dusty Mineshaft"
+    "id": 0,
+    "name": "Dusty Mineshaft",
+    "x": -821.181,
+    "y": -294.99
   },
   {
-    "x": -101.52915,
-    "y": 84.22681,
-    "name": "Dark Hollow"
+    "id": 0,
+    "name": "Dark Hollow",
+    "x": -725.576,
+    "y": -289.226
   },
   {
-    "x": -108.325195,
-    "y": 92.39278,
-    "name": "Abandoned Mineshaft"
+    "id": 0,
+    "name": "Abandoned Mineshaft",
+    "x": -744.75,
+    "y": -79.8126
   },
   {
-    "x": -78.78724,
-    "y": 61.401382,
-    "name": "Monk&#39;s Retreat"
+    "id": 0,
+    "name": "Monk&#39;s Retreat",
+    "x": -724.407,
+    "y": -927.002
   },
   {
-    "x": -87.66702,
-    "y": 54.47711,
-    "name": "Cannibals&#39; Foothold"
+    "id": 0,
+    "name": "Cannibals&#39; Foothold",
+    "x": -503.208,
+    "y": -899.632
   },
   {
-    "x": -64.5543,
-    "y": 120.75575,
-    "name": "Abandoned Smuggler&#39;s Den</br>Once a den for bandits, it now houses a far worse threat. "
+    "id": 0,
+    "name": "Abandoned Smuggler&#39;s Den</br>Once a den for bandits, it now houses a far worse threat. ",
+    "x": -1754.36,
+    "y": -295.467
   },
   {
-    "x": -85.525604,
-    "y": 38.986923,
-    "name": "Eroded Cove"
+    "id": 0,
+    "name": "Eroded Cove",
+    "x": -316.374,
+    "y": -1146.41
   },
   {
-    "x": -79.01562,
-    "y": 44.783157,
-    "name": "Seaside Cavern"
+    "id": 0,
+    "name": "Seaside Cavern",
+    "x": -488.616,
+    "y": -1156.4
   },
   {
-    "x": -91.96026,
-    "y": 41.399582,
-    "name": "Hinterlands Shelter"
+    "id": 0,
+    "name": "Hinterlands Shelter",
+    "x": -260.081,
+    "y": -1022.58
   },
   {
-    "x": -102.8624,
-    "y": 74.17115,
-    "name": "Sun-Bleached Excavation"
+    "id": 0,
+    "name": "Sun-Bleached Excavation",
+    "x": -566.173,
+    "y": -411.308
   },
   {
-    "x": -94.144615,
-    "y": 76.264206,
-    "name": "Barren Cave"
+    "id": 0,
+    "name": "Barren Cave",
+    "x": -717.485,
+    "y": -504.03
   },
   {
-    "x": -109.099846,
-    "y": 68.425674,
-    "name": "Marauder&#39;s Hideaway"
+    "id": 0,
+    "name": "Marauder&#39;s Hideaway",
+    "x": -398.456,
+    "y": -404.422
   },
   {
-    "x": -97.2101,
-    "y": 67.540016,
-    "name": "Cannibals&#39; Hold"
+    "id": 0,
+    "name": "Cannibals&#39; Hold",
+    "x": -552.473,
+    "y": -583.231
   },
   {
-    "x": -115.829285,
-    "y": 81.52214,
-    "name": "Rancid Vermin Nest"
+    "id": 0,
+    "name": "Rancid Vermin Nest",
+    "x": -487.571,
+    "y": -126.932
   },
   {
-    "x": -118.393234,
-    "y": 90.4061,
-    "name": "Sandy Ruins"
+    "id": 0,
+    "name": "Sandy Ruins",
+    "x": -576.028,
+    "y": 33.2968
   },
   {
-    "x": -112.97058,
-    "y": 95.5985,
-    "name": "Hellish Pit"
+    "id": 0,
+    "name": "Hellish Pit",
+    "x": -724.6,
+    "y": 30.0743
   },
   {
-    "x": -113.86348,
-    "y": 91.29147,
-    "name": "Groundskeeper&#39;s Shed"
+    "id": 0,
+    "name": "Groundskeeper&#39;s Shed",
+    "x": -651.82,
+    "y": -17.7112
   },
   {
-    "x": -145.15527,
-    "y": 28.42009,
-    "name": "Commandeered House </br>A residence forcibly taken over by the Knights Penitent"
+    "id": 0,
+    "name": "Commandeered House </br>A residence forcibly taken over by the Knights Penitent",
+    "x": 666.12,
+    "y": -459.71
   },
   {
-    "x": -131.46027,
-    "y": 45.099792,
-    "name": "Hideout Entrance</br>This entrance was obstructed by rubble. "
+    "id": 0,
+    "name": "Hideout Entrance</br>This entrance was obstructed by rubble. ",
+    "x": 240.985,
+    "y": -417.935
   },
   {
-    "x": -129.7042,
-    "y": 50.704224,
-    "name": "Osric&#39;s garrison</br>A home commandeered as a base by the Knights Penitent"
+    "id": 0,
+    "name": "Osric&#39;s garrison</br>A home commandeered as a base by the Knights Penitent",
+    "x": 137.965,
+    "y": -364.072
   },
   {
-    "x": -122.22689,
-    "y": 52.11644,
-    "name": "Mysterious Gateway</br>A hellish portal of unknown contents. "
+    "id": 0,
+    "name": "Mysterious Gateway</br>A hellish portal of unknown contents. ",
+    "x": 13.5442,
+    "y": -448.961
   },
   {
-    "x": -72.65428,
-    "y": 138.10172,
-    "name": "Embered Recess</br>An ash-covered cellar carrying the smell of burnt remains."
+    "id": 0,
+    "name": "Embered Recess</br>An ash-covered cellar carrying the smell of burnt remains.",
+    "x": -1883.77,
+    "y": 60.683
   },
   {
-    "x": -62.44255,
-    "y": 148.12744,
-    "name": "Seared Hollow</br>A torrid cavern etched with fire from the Days of Ash."
+    "id": 0,
+    "name": "Seared Hollow</br>A torrid cavern etched with fire from the Days of Ash.",
+    "x": -2167.02,
+    "y": 58.0796
   },
   {
-    "x": -90.18314,
-    "y": 37.07225,
-    "name": "Lost Monument Crypt"
+    "id": 0,
+    "name": "Lost Monument Crypt",
+    "x": -224.387,
+    "y": -1108.02
   },
   {
-    "x": -134.70367,
-    "y": 125.45138,
-    "name": "Strange Refuge"
+    "id": 0,
+    "name": "Strange Refuge",
+    "x": -838.247,
+    "y": 752.089
   },
   {
-    "x": -57.364464,
-    "y": 69.46939,
-    "name": "Zolaya&#39;s Hideout"
+    "id": 0,
+    "name": "Zolaya&#39;s Hideout",
+    "x": -1137.17,
+    "y": -1113.92
   },
   {
-    "x": -82.50449,
-    "y": 113.57367,
-    "name": "The Red Cellar"
+    "id": 0,
+    "name": "The Red Cellar",
+    "x": -1402.6,
+    "y": -144.753
   },
   {
-    "x": -77.46144,
-    "y": 126.46458,
-    "name": "Sanctified Study"
+    "id": 0,
+    "name": "Sanctified Study",
+    "x": -1653.61,
+    "y": -34.9117
   },
   {
-    "x": -94.55983,
-    "y": 124.876656,
-    "name": "Frigid Cellar</br>Sister Octavia has invited you to witness a miracle."
+    "id": 0,
+    "name": "Frigid Cellar</br>Sister Octavia has invited you to witness a miracle.",
+    "x": -1392.07,
+    "y": 182.178
   },
   {
-    "x": -129.80136,
-    "y": 35.971024,
-    "name": "Triune Hideout</br>Under the Iron Wolves&#39; noses, Triune plot and connive."
+    "id": 0,
+    "name": "Triune Hideout</br>Under the Iron Wolves&#39; noses, Triune plot and connive.",
+    "x": 345.536,
+    "y": -568.923
   },
   {
-    "x": -109.40134,
-    "y": 102.498436,
-    "name": "Abandoned Shack</br>The cellar of an old homestead, abandoned to the elements."
+    "id": 0,
+    "name": "Abandoned Shack</br>The cellar of an old homestead, abandoned to the elements.",
+    "x": -871.13,
+    "y": 76.6916
   },
   {
-    "x": -117.58724,
-    "y": 142.33476,
-    "name": "Eldritch Conclave</br>A hidden meeting place for the witches of Hawezar."
+    "id": 0,
+    "name": "Eldritch Conclave</br>A hidden meeting place for the witches of Hawezar.",
+    "x": -1314.12,
+    "y": 748.827
   },
   {
-    "x": -89.495346,
-    "y": 112.94323,
-    "name": "Bitter Cave</br>A cavern cold enough to freeze your breath on your face. "
+    "id": 0,
+    "name": "Bitter Cave</br>A cavern cold enough to freeze your breath on your face. ",
+    "x": -1295.93,
+    "y": -55.7307
   },
   {
-    "x": -78.493454,
-    "y": 52.835144,
-    "name": " Family Cellar</br>A cellar owned by a local family, long since abandoned."
+    "id": 0,
+    "name": " Family Cellar</br>A cellar owned by a local family, long since abandoned.",
+    "x": -608.623,
+    "y": -1051.01
   }
 ]

@@ -1,941 +1,1098 @@
 var dungeons = [
   {
-    "x": -108.61986,
-    "y": 128.11957,
+    "id": 152702,
     "name": "Cutthroat&#39;s Escape",
-    "description": "The bandit hideout has to have Perithan, hopefully alive."
+    "description": "The bandit hideout has to have Perithan, hopefully alive.",
+    "x": -1240.67,
+    "y": 424.356
   },
   {
-    "x": -79.783066,
-    "y": 78.832016,
+    "id": 152702,
     "name": "Mournfield",
-    "description": "What walks here is living and dead and will rob you.</br>Aspect of Berserk Ripping"
+    "description": "What walks here is living and dead and will rob you.</br>Aspect of Berserk Ripping",
+    "x": -954.434,
+    "y": -669.099
   },
   {
-    "x": -58.43009,
-    "y": 74.28886,
+    "id": 152702,
     "name": "Infected Delve",
-    "description": "An abandoned mine now festers with maggots and disease. "
+    "description": "An abandoned mine now festers with maggots and disease. ",
+    "x": -1189.71,
+    "y": -1031.55
   },
   {
-    "x": -102.6808,
-    "y": 109.778694,
+    "id": 152702,
     "name": "Icehowl Ruins ",
-    "description": "An unknown evil stirs within these abandoned halls."
+    "description": "An unknown evil stirs within these abandoned halls.",
+    "x": -1067.09,
+    "y": 84.5257
   },
   {
-    "x": -102.76201,
-    "y": 133.5061,
+    "id": 152702,
     "name": "Horadric Vault",
-    "description": "A hall of magical study built upon ancient mage clan ruins."
+    "description": "A hall of magical study built upon ancient mage clan ruins.",
+    "x": -1398.05,
+    "y": 417.759
   },
   {
-    "x": -102.76201,
-    "y": 133.5061,
+    "id": 152702,
     "name": "Horadric Vault",
-    "description": "A hall of magical study built upon ancient mage clan ruins."
+    "description": "A hall of magical study built upon ancient mage clan ruins.",
+    "x": -1398.05,
+    "y": 417.759
   },
   {
-    "x": -81.085594,
-    "y": 72.131516,
+    "id": 152702,
     "name": "Onyx Hold",
-    "description": "Undead wardens still patrol the halls of this prison.</br>Storm Swell Aspect"
+    "description": "Undead wardens still patrol the halls of this prison.</br>Storm Swell Aspect",
+    "x": -842.421,
+    "y": -744.651
   },
   {
-    "x": -82.1768,
-    "y": 71.00564,
+    "id": 152702,
     "name": "Borza&#39;s Hideout",
-    "description": "Borza, the thief who left Nizaar to die, hides in the caves."
+    "description": "Borza, the thief who left Nizaar to die, hides in the caves.",
+    "x": -811.39,
+    "y": -745.136
   },
   {
-    "x": -146.1675,
-    "y": 47.934082,
+    "id": 152702,
     "name": "Crumbling Hekma",
-    "description": "A hate-infested catacomb of the Zakarum faith. </br>Aspect of Splintering Energy"
+    "description": "A hate-infested catacomb of the Zakarum faith. </br>Aspect of Splintering Energy",
+    "x": 407.163,
+    "y": -172.418
   },
   {
-    "x": -70.58567,
-    "y": 57.04268,
+    "id": 152702,
     "name": "Seaside Descent",
-    "description": "A cove nestled among a graveyard of shipwrecks.</br>Aspect of Retaliation"
+    "description": "A cove nestled among a graveyard of shipwrecks.</br>Aspect of Retaliation",
+    "x": -778.193,
+    "y": -1102.8
   },
   {
-    "x": -106.86841,
-    "y": 45.150253,
+    "id": 152702,
     "name": "Sepulcher of The Forsworn",
-    "description": "Evil stirs below the altar of Baal.</br>Hulking Aspect"
+    "description": "Evil stirs below the altar of Baal.</br>Hulking Aspect",
+    "x": -103.917,
+    "y": -761.425
   },
   {
-    "x": -68.08809,
-    "y": 73.15546,
+    "id": 152702,
     "name": "Dark Ravine",
-    "description": " A Triune ritual site. The screams echo far and wide. </br>Aspect of Might"
+    "description": " A Triune ritual site. The screams echo far and wide. </br>Aspect of Might",
+    "x": -1038.67,
+    "y": -912.237
   },
   {
-    "x": -76.621,
-    "y": 99.34798,
+    "id": 152702,
     "name": "Temple of The Primes",
-    "description": "The seat of the Triune&#39;s power, hidden for millennia."
+    "description": "The seat of the Triune&#39;s power, hidden for millennia.",
+    "x": -1285.84,
+    "y": -426.208
   },
   {
-    "x": -101.48082,
-    "y": 121.85576,
+    "id": 152702,
     "name": "Light&#39;s Watch",
-    "description": "A Knights&#39; keep, repurposed for bandits and other parasites.</br>Aspect of Conflagration"
+    "description": "A Knights&#39; keep, repurposed for bandits and other parasites.</br>Aspect of Conflagration",
+    "x": -1252.92,
+    "y": 236.765
   },
   {
-    "x": -106.2625,
-    "y": 125.38068,
+    "id": 152702,
     "name": "Maulwood",
-    "description": "Bandits have claimed these woods and its monsters.</br>Slaking Aspect"
+    "description": "Bandits have claimed these woods and its monsters.</br>Slaking Aspect",
+    "x": -1235.33,
+    "y": 353.027
   },
   {
-    "x": -81.06772,
-    "y": 103.78043,
+    "id": 152702,
     "name": "Caldera Gate",
-    "description": "The demons in this icy cave are growing stronger.</br>Eluding Aspect"
+    "description": "The demons in this icy cave are growing stronger.</br>Eluding Aspect",
+    "x": -1285.64,
+    "y": -301.932
   },
   {
-    "x": -91.21721,
-    "y": 107.66469,
+    "id": 152702,
     "name": "Derelict Lodge",
-    "description": "Once a hunting lodge, now ruled by demons.</br>Aspect of Explosive Verve"
+    "description": "Once a hunting lodge, now ruled by demons.</br>Aspect of Explosive Verve",
+    "x": -1197.95,
+    "y": -105.511
   },
   {
-    "x": -87.53677,
-    "y": 107.01148,
+    "id": 152702,
     "name": "Nostrava Deepwood",
-    "description": "The undead roam among the trees.</br>Flesh-Rending Aspect"
+    "description": "The undead roam among the trees.</br>Flesh-Rending Aspect",
+    "x": -1240.32,
+    "y": -166.166
   },
   {
-    "x": -71.29167,
-    "y": 110.132866,
+    "id": 152702,
     "name": "Mercy&#39;s Reach",
-    "description": "This crumbling keep was once a way through the mountains. </br>Blood Seeker's Aspect"
+    "description": "This crumbling keep was once a way through the mountains. </br>Blood Seeker's Aspect",
+    "x": -1511.38,
+    "y": -349.85
   },
   {
-    "x": -73.633896,
-    "y": 123.76019,
+    "id": 152702,
     "name": "Kor Dragan Barracks",
-    "description": "The honored halls have been left for the dead to wander.</br>Aspect of Anemia"
+    "description": "The honored halls have been left for the dead to wander.</br>Aspect of Anemia",
+    "x": -1669.33,
+    "y": -126.335
   },
   {
-    "x": -77.03471,
-    "y": 116.23958,
+    "id": 152702,
     "name": "Forbidden City",
-    "description": "An ancient tomb lies open, its corruption spilling forth.</br>Nighthowler's Aspect"
+    "description": "An ancient tomb lies open, its corruption spilling forth.</br>Nighthowler's Aspect",
+    "x": -1516.47,
+    "y": -183.997
   },
   {
-    "x": -94.00389,
-    "y": 138.38155,
+    "id": 152702,
     "name": "Hallowed Ossuary",
-    "description": "A tomb of martyrs, desecrated and made powerful again.</br>Aspect of Unrelenting Fury"
+    "description": "A tomb of martyrs, desecrated and made powerful again.</br>Aspect of Unrelenting Fury",
+    "x": -1588.87,
+    "y": 363.416
   },
   {
-    "x": -86.777695,
-    "y": 133.50452,
+    "id": 152702,
     "name": "Black Asylum",
-    "description": "An abandoned prison teeming with the wails of its inmates.</br>Aspect of Torment"
+    "description": "An abandoned prison teeming with the wails of its inmates.</br>Aspect of Torment",
+    "x": -1621.75,
+    "y": 194.015
   },
   {
-    "x": -83.90512,
-    "y": 127.11389,
+    "id": 152702,
     "name": "Forsaken Quarry",
-    "description": "These once-barren mineshafts now harbor ghastly rituals.</br>Aspect of Encircling Blades"
+    "description": "These once-barren mineshafts now harbor ghastly rituals.</br>Aspect of Encircling Blades",
+    "x": -1572.51,
+    "y": 64.3641
   },
   {
-    "x": -81.39875,
-    "y": 144.89711,
+    "id": 152702,
     "name": "Hoarfrost Demise",
-    "description": "An icy Goatman cave, littered with corpses and bones.</br>Blood-bathed Aspect"
+    "description": "An icy Goatman cave, littered with corpses and bones.</br>Blood-bathed Aspect",
+    "x": -1856.49,
+    "y": 278.184
   },
   {
-    "x": -82.770355,
-    "y": 153.43701,
+    "id": 152702,
     "name": "Zenith",
-    "description": "Unmapped tunnels sprawl beneath the peaks. </br>Recharging Aspect"
+    "description": "Unmapped tunnels sprawl beneath the peaks. </br>Recharging Aspect",
+    "x": -1956.82,
+    "y": 416.909
   },
   {
-    "x": -107.15283,
-    "y": 146.25624,
+    "id": 152702,
     "name": "Dead Man&#39;s Dredge",
-    "description": "The predators that dwell in this cave hunt human game.</br>Aspect of Piercing Cold"
+    "description": "The predators that dwell in this cave hunt human game.</br>Aspect of Piercing Cold",
+    "x": -1515.05,
+    "y": 657.67
   },
   {
-    "x": -91.56679,
-    "y": 85.32201,
+    "id": 152702,
     "name": "Guulrahn Canals",
-    "description": "A rot that even the cannibal tyrant will not touch is below.</br>Trickster's Aspect"
+    "description": "A rot that even the cannibal tyrant will not touch is below.</br>Trickster's Aspect",
+    "x": -880.341,
+    "y": -413.334
   },
   {
-    "x": -89.901215,
-    "y": 100.59648,
+    "id": 152702,
     "name": "Whispering Vault",
-    "description": "Scholarly halls haunted by whispering spirits of the insane.</br>Aspect of Unstable Imbuements"
+    "description": "Scholarly halls haunted by whispering spirits of the insane.</br>Aspect of Unstable Imbuements",
+    "x": -1117.44,
+    "y": -222.859
   },
   {
-    "x": -76.620964,
-    "y": 99.347946,
+    "id": 152702,
     "name": "Fallen Temple",
-    "description": "One of the Triune&#39;s most formidable temples."
+    "description": "One of the Triune&#39;s most formidable temples.",
+    "x": -1285.84,
+    "y": -426.209
   },
   {
-    "x": -103.65149,
-    "y": 89.20548,
+    "id": 152702,
     "name": "Shifting City",
-    "description": "These ruins were once a refuge for the people of Qara-Yisu.</br>Ravenous Aspect"
+    "description": "These ruins were once a refuge for the people of Qara-Yisu.</br>Ravenous Aspect",
+    "x": -765.554,
+    "y": -189.838
   },
   {
-    "x": -102.68114,
-    "y": 109.77689,
+    "id": 152702,
     "name": "Tormented Ruins",
-    "description": "It&#39;s been centuries since this watchtower saw mortal use.</br>Aspect of the Unsatiated"
+    "description": "It&#39;s been centuries since this watchtower saw mortal use.</br>Aspect of the Unsatiated",
+    "x": -1067.06,
+    "y": 84.5051
   },
   {
-    "x": -109.24138,
-    "y": 105.75116,
+    "id": 152702,
     "name": "Lost Archives",
-    "description": "Many speculate what lies within, but few dare to venture on.</br>Aspect of the Protector"
+    "description": "Many speculate what lies within, but few dare to venture on.</br>Aspect of the Protector",
+    "x": -918.895,
+    "y": 119.979
   },
   {
-    "x": -107.99127,
-    "y": 112.584946,
+    "id": 152702,
     "name": "Defiled Catacomb",
-    "description": "Graverobbers warn against the temptations of this crypt.</br>Aspect of Tempering Blows"
+    "description": "Graverobbers warn against the temptations of this crypt.</br>Aspect of Tempering Blows",
+    "x": -1032.04,
+    "y": 198.13
   },
   {
-    "x": -29.0317,
-    "y": 97.24986,
+    "id": 152702,
     "name": "Calibel&#39;s Mine",
-    "description": "The bandits that took this mine are ignorant of its secrets.</br>Aspect of the Relentless Armsmaster"
+    "description": "The bandits that took this mine are ignorant of its secrets.</br>Aspect of the Relentless Armsmaster",
+    "x": -1922.55,
+    "y": -1121.65
   },
   {
-    "x": -43.99476,
-    "y": 94.5433,
+    "id": 152702,
     "name": "Howling Warren",
-    "description": "A corrupted den of wolves and wargs, hungry for human flesh.</br>Aspect of Arrow Storms"
+    "description": "A corrupted den of wolves and wargs, hungry for human flesh.</br>Aspect of Arrow Storms",
+    "x": -1675.24,
+    "y": -950.104
   },
   {
-    "x": -27.448067,
-    "y": 105.13085,
+    "id": 152702,
     "name": "Sunken Ruins",
-    "description": "Rumors stir of a healer turned renegade necromancer.</br>Aspect of Ancestral Force"
+    "description": "Rumors stir of a healer turned renegade necromancer.</br>Aspect of Ancestral Force",
+    "x": -2055.02,
+    "y": -1033.51
   },
   {
-    "x": -59.927208,
-    "y": 125.601135,
+    "id": 152702,
     "name": "Oldstones",
-    "description": "Khazra infest the ruined holdfast, ignorant of its curse.</br>Edgemaster’s Aspect"
+    "description": "Khazra infest the ruined holdfast, ignorant of its curse.</br>Edgemaster’s Aspect",
+    "x": -1886.94,
+    "y": -292.412
   },
   {
-    "x": -67.11455,
-    "y": 112.51247,
+    "id": 152702,
     "name": "Sarat&#39;s Lair",
-    "description": "What once was a wildlife den has become a nest.</br>Snowveiled Aspect"
+    "description": "What once was a wildlife den has become a nest.</br>Snowveiled Aspect",
+    "x": -1603.15,
+    "y": -375.009
   },
   {
-    "x": -64.35241,
-    "y": 152.6208,
-    "name": "The Forlorn Hovel"
+    "id": 152702,
+    "name": "The Forlorn Hovel",
+    "x": -2203.18,
+    "y": 147.701
   },
   {
-    "x": -68.358025,
-    "y": 134.85287,
+    "id": 152702,
     "name": "Hive",
-    "description": "An insatiable will drives these creatures to feed.</br>Aspect of Swelling Curse"
+    "description": "An insatiable will drives these creatures to feed.</br>Aspect of Swelling Curse",
+    "x": -1898.43,
+    "y": -44.9208
   },
   {
-    "x": -63.10051,
-    "y": 150.18004,
+    "id": 152702,
     "name": "Whispering Pines",
-    "description": "Astaroth is gone now, but his grip on this keep holds fast. </br>Ballistic Aspect"
+    "description": "Astaroth is gone now, but his grip on this keep holds fast. </br>Ballistic Aspect",
+    "x": -2186.54,
+    "y": 96.0175
   },
   {
-    "x": -72.281364,
-    "y": 130.55765,
+    "id": 152702,
     "name": "Maddux Watch",
-    "description": "This abandoned outpost treads atop the dead.</br>Charged Aspect"
+    "description": "This abandoned outpost treads atop the dead.</br>Charged Aspect",
+    "x": -1783.4,
+    "y": -50.1258
   },
   {
-    "x": -38.478996,
-    "y": 110.9547,
+    "id": 152702,
     "name": "Weeping Cairns",
-    "description": "A silent resting place of Scosglen&#39;s deceased, now awoken."
+    "description": "A silent resting place of Scosglen&#39;s deceased, now awoken.",
+    "x": -1982.14,
+    "y": -797.605
   },
   {
-    "x": -42.462563,
-    "y": 137.66565,
+    "id": 152702,
     "name": "Ferals&#39; Den",
-    "description": "A lodge corrupted by the druids&#39; hate.</br>Aspect of Quicksand"
+    "description": "A lodge corrupted by the druids&#39; hate.</br>Aspect of Quicksand",
+    "x": -2300.24,
+    "y": -367.994
   },
   {
-    "x": -44.040123,
-    "y": 134.88777,
+    "id": 152702,
     "name": "Twisted Hollow",
-    "description": "A veritable reservoir of wildlife where answers may lurk.</br>Shadowslicer Aspect"
+    "description": "A veritable reservoir of wildlife where answers may lurk.</br>Shadowslicer Aspect",
+    "x": -2239.28,
+    "y": -384.794
   },
   {
-    "x": -61.534584,
-    "y": 99.812065,
+    "id": 152702,
     "name": "Donan&#39;s Study",
-    "description": "A private office where Donan handles his many affairs."
+    "description": "A private office where Donan handles his many affairs.",
+    "x": -1503.49,
+    "y": -630.867
   },
   {
-    "x": -68.76258,
-    "y": 99.76816,
+    "id": 152702,
     "name": "Eldhaime Ruins",
-    "description": "These overrun battlements should lead to the Great Hall."
+    "description": "These overrun battlements should lead to the Great Hall.",
+    "x": -1401.71,
+    "y": -530.316
   },
   {
-    "x": -70.82965,
-    "y": 98.89448,
+    "id": 152702,
     "name": "Eldhaime Ruins",
-    "description": "These overrun battlements should lead to the Great Hall."
+    "description": "These overrun battlements should lead to the Great Hall.",
+    "x": -1360.55,
+    "y": -513.613
   },
   {
-    "x": -66.66214,
-    "y": 101.099335,
+    "id": 152702,
     "name": "Eldhaime Barracks",
-    "description": "Astaroth&#39;s soulstone rests in the depths of Eldhaime Keep."
+    "description": "Astaroth&#39;s soulstone rests in the depths of Eldhaime Keep.",
+    "x": -1449.74,
+    "y": -541.083
   },
   {
-    "x": -125.43904,
-    "y": 144.24072,
+    "id": 152702,
     "name": "Ancient Reservoir",
-    "description": "A tainted wellspring runs under these ruins.</br>Aspect of Ancestral Echoes"
+    "description": "A tainted wellspring runs under these ruins.</br>Aspect of Ancestral Echoes",
+    "x": -1230.9,
+    "y": 885.4
   },
   {
-    "x": -132.21596,
-    "y": 139.63322,
+    "id": 152702,
     "name": "Haunted Refuge",
-    "description": "The old church sinks into the delta, drowning slowly.</br>Brawler's Aspect"
+    "description": "The old church sinks into the delta, drowning slowly.</br>Brawler's Aspect",
+    "x": -1071.56,
+    "y": 915.764
   },
   {
-    "x": -147.60623,
-    "y": 123.432594,
+    "id": 152702,
     "name": "Witchwater",
-    "description": "Nangari cultists lure prey here with songs sung in dreams.</br>Prodigy’s Aspect"
+    "description": "Nangari cultists lure prey here with songs sung in dreams.</br>Prodigy’s Aspect",
+    "x": -629.403,
+    "y": 904.422
   },
   {
-    "x": -148.20421,
-    "y": 138.6529,
+    "id": 152702,
     "name": "Quiet Clearing",
-    "description": "A hidden clearing Lyndon uses to stash &quot;the good stuff.&quot;"
+    "description": "A hidden clearing Lyndon uses to stash &quot;the good stuff.&quot;",
+    "x": -834.062,
+    "y": 1125.82
   },
   {
-    "x": -151.354,
-    "y": 140.8488,
+    "id": 152702,
     "name": "Secluded Clearing",
-    "description": "Only Lyndon and the Drowned know of this hidden clearing."
+    "description": "Only Lyndon and the Drowned know of this hidden clearing.",
+    "x": -820.711,
+    "y": 1200.64
   },
   {
-    "x": -154.87871,
-    "y": 138.1686,
+    "id": 152702,
     "name": "Faceless Shrine",
-    "description": "One of Hawezar’s less secretive cults. Sinners welcome.</br>Unyielding Commander's Aspect"
+    "description": "One of Hawezar’s less secretive cults. Sinners welcome.</br>Unyielding Commander's Aspect",
+    "x": -733.865,
+    "y": 1212.46
   },
   {
-    "x": -153.65839,
-    "y": 141.79883,
-    "name": "Hidden Glade"
+    "id": 152702,
+    "name": "Hidden Glade",
+    "x": -801.755,
+    "y": 1246.19
   },
   {
-    "x": -152.04865,
-    "y": 110.84178,
+    "id": 152702,
     "name": "Ruins of Eridu",
-    "description": "A once-mighty fortress consumed by the swamp.</br>Sacrificial Aspect"
+    "description": "A once-mighty fortress consumed by the swamp.</br>Sacrificial Aspect",
+    "x": -391.0,
+    "y": 790.374
   },
   {
-    "x": -160.7662,
-    "y": 125.41501,
+    "id": 152702,
     "name": "Ghoa Ruins ",
-    "description": "Once a keep. The swamp reclaims all that mortal hands build.</br>Enshrouding Aspect"
+    "description": "Once a keep. The swamp reclaims all that mortal hands build.</br>Enshrouding Aspect",
+    "x": -472.958,
+    "y": 1116.36
   },
   {
-    "x": -160.50099,
-    "y": 118.5255,
+    "id": 152702,
     "name": "Leviathan&#39;s Maw",
-    "description": "Cultists lurk in these flooded ruins.</br>Aspect of Siphoned Victuals"
+    "description": "Cultists lurk in these flooded ruins.</br>Aspect of Siphoned Victuals",
+    "x": -380.242,
+    "y": 1016.22
   },
   {
-    "x": -143.30032,
-    "y": 114.806984,
+    "id": 152702,
     "name": "Maugan&#39;s Works",
-    "description": "A rotting hall for criminals and deserters.</br>Earthstriker's Aspect"
+    "description": "A rotting hall for criminals and deserters.</br>Earthstriker's Aspect",
+    "x": -568.943,
+    "y": 723.428
   },
   {
-    "x": -145.53902,
-    "y": 107.12187,
+    "id": 152702,
     "name": "Blind Burrows",
-    "description": "The spiders here have acquired a taste for flesh. </br>Aspect of the Tempest"
+    "description": "The spiders here have acquired a taste for flesh. </br>Aspect of the Tempest",
+    "x": -430.046,
+    "y": 647.198
   },
   {
-    "x": -137.96933,
-    "y": 67.92142,
+    "id": 152702,
     "name": "Abandoned Mineworks",
-    "description": "A maze of tunnels, still walked by those who died here.</br>Aspect of Retribution"
+    "description": "A maze of tunnels, still walked by those who died here.</br>Aspect of Retribution",
+    "x": 12.669,
+    "y": -7.41283
   },
   {
-    "x": -114.39784,
-    "y": 69.44191,
+    "id": 152702,
     "name": "Sirocco Caverns",
-    "description": "A foul infestation has claimed these caverns.</br>Aspect of Echoing Fury"
+    "description": "A foul infestation has claimed these caverns.</br>Aspect of Echoing Fury",
+    "x": -338.527,
+    "y": -316.046
   },
   {
-    "x": -125.559616,
-    "y": 88.62478,
+    "id": 152702,
     "name": "Halls of the Damned",
-    "description": "Triune mages once pioneered strange magics here...</br>Aspect of Disobedience"
+    "description": "Triune mages once pioneered strange magics here...</br>Aspect of Disobedience",
+    "x": -450.793,
+    "y": 108.668
   },
   {
-    "x": -138.19974,
-    "y": 43.539032,
+    "id": 152702,
     "name": "Conclave",
-    "description": "Tales of profane rituals grip the people with fear.</br>Aspect of the Changeling's Debt"
+    "description": "Tales of profane rituals grip the people with fear.</br>Aspect of the Changeling's Debt",
+    "x": 357.158,
+    "y": -345.452
   },
   {
-    "x": -144.5394,
-    "y": 36.890717,
+    "id": 152702,
     "name": "Hakan&#39;s Refuge",
-    "description": "This one grand manor lies in ruins, festering with memories.</br>Relentless Berserker's Aspect"
+    "description": "This one grand manor lies in ruins, festering with memories.</br>Relentless Berserker's Aspect",
+    "x": 538.942,
+    "y": -349.772
   },
   {
-    "x": -125.46512,
-    "y": 31.255188,
+    "id": 152702,
     "name": "Forgotten Ruins",
-    "description": "Serpents infest the bones of these forbidden mage halls.</br>Iron Blood Aspect"
+    "description": "Serpents infest the bones of these forbidden mage halls.</br>Iron Blood Aspect",
+    "x": 350.849,
+    "y": -695.619
   },
   {
-    "x": -127.84903,
-    "y": 38.552795,
+    "id": 152702,
     "name": "Tunnels Beneath The Oasis",
-    "description": "Sharp acrid smells seep from the hidden caverns."
+    "description": "Sharp acrid smells seep from the hidden caverns.",
+    "x": 282.075,
+    "y": -560.113
   },
   {
-    "x": -135.99373,
-    "y": 31.979172,
+    "id": 152702,
     "name": "Corrupted Grotto",
-    "description": "The forgotten dead languish under barren rock.</br>Aspect of Grasping Veins"
+    "description": "The forgotten dead languish under barren rock.</br>Aspect of Grasping Veins",
+    "x": 488.078,
+    "y": -538.124
   },
   {
-    "x": -128.9282,
-    "y": 41.00598,
+    "id": 152702,
     "name": " Putrid Aquifer",
-    "description": "Death taints the water.</br>Aspect of the Unwavering"
+    "description": "Death taints the water.</br>Aspect of the Unwavering",
+    "x": 262.844,
+    "y": -510.673
   },
   {
-    "x": -129.12209,
-    "y": 32.360275,
+    "id": 152702,
     "name": "Uldur&#39;s Cave",
-    "description": "A den of murderers and carrion feeders.</br>Aspect of the Damned"
+    "description": "A den of murderers and carrion feeders.</br>Aspect of the Damned",
+    "x": 386.566,
+    "y": -628.968
   },
   {
-    "x": -132.8302,
-    "y": 19.115005,
+    "id": 152702,
     "name": "Heretics Asylum",
-    "description": "A jail home to the corrupt and cruel.</br>Veteran Brawler's Aspect"
+    "description": "A jail home to the corrupt and cruel.</br>Veteran Brawler's Aspect",
+    "x": 623.851,
+    "y": -762.453
   },
   {
-    "x": -110.01833,
-    "y": 50.63092,
+    "id": 152702,
     "name": "Shivta Ruins",
-    "description": "The corruption in Alcarnus has bled into these ruins.</br>Wind Striker Aspect"
+    "description": "The corruption in Alcarnus has bled into these ruins.</br>Wind Striker Aspect",
+    "x": -136.539,
+    "y": -640.628
   },
   {
-    "x": -112.3676,
-    "y": 62.040558,
+    "id": 152702,
     "name": "Inferno",
-    "description": "We have carved into the rock to seek Hell.</br>Vengeful Aspect"
+    "description": "We have carved into the rock to seek Hell.</br>Vengeful Aspect",
+    "x": -263.351,
+    "y": -448.054
   },
   {
-    "x": -106.99684,
-    "y": 36.472717,
+    "id": 152702,
     "name": "Tomb of the Saints",
-    "description": "This barren tomb was once fat with gold. </br>Incendiary Aspect"
+    "description": "This barren tomb was once fat with gold. </br>Incendiary Aspect",
+    "x": 19.3342,
+    "y": -881.081
   },
   {
-    "x": -121.044395,
-    "y": 42.739548,
+    "id": 152702,
     "name": "Sunken Library",
-    "description": "The dead guard secrets confined in the ancient vault.</br>Aspect of Control"
+    "description": "The dead guard secrets confined in the ancient vault.</br>Aspect of Control",
+    "x": 128.236,
+    "y": -596.754
   },
   {
-    "x": -118.944595,
-    "y": 55.73854,
+    "id": 152702,
     "name": "Collapsed Vault",
-    "description": "In dead hands do these ancient treasures lie.</br>Aspect of Cyclonic Force"
+    "description": "In dead hands do these ancient treasures lie.</br>Aspect of Cyclonic Force",
+    "x": -83.0921,
+    "y": -444.205
   },
   {
-    "x": -140.8699,
-    "y": 48.76529,
+    "id": 152702,
     "name": "Deserted Underpass",
-    "description": "A threat lurks in caves under the ruined Overlook.</br>Torturous Aspect"
+    "description": "A threat lurks in caves under the ruined Overlook.</br>Torturous Aspect",
+    "x": 321.382,
+    "y": -234.931
   },
   {
-    "x": -132.65575,
-    "y": 93.39496,
+    "id": 152702,
     "name": "Endless Gates",
-    "description": "Unholy creatures run amok between realms.</br>Aspect of the Rampaging Werebeast"
+    "description": "Unholy creatures run amok between realms.</br>Aspect of the Rampaging Werebeast",
+    "x": -418.238,
+    "y": 274.753
   },
   {
-    "x": -128.97743,
-    "y": 93.582085,
+    "id": 152702,
     "name": "Bastion of Faith",
-    "description": "Lost and starving, the knights became beasts.</br>Trickshot Aspect"
+    "description": "Lost and starving, the knights became beasts.</br>Trickshot Aspect",
+    "x": -472.34,
+    "y": 225.889
   },
   {
-    "x": -147.40573,
-    "y": 85.14897,
+    "id": 152702,
     "name": "Earthen Wound",
-    "description": "The demons that dwelled here became a feast for cannibals.</br>Aspect of Singed Extremities"
+    "description": "The demons that dwelled here became a feast for cannibals.</br>Aspect of Singed Extremities",
+    "x": -96.3786,
+    "y": 365.785
   },
   {
-    "x": -131.08348,
-    "y": 89.34848,
+    "id": 152702,
     "name": "Lost Keep",
-    "description": "Yet another rotting keep abandoned by the Cathedral.</br>Aspect of the Deflecting Barrier"
+    "description": "Yet another rotting keep abandoned by the Cathedral.</br>Aspect of the Deflecting Barrier",
+    "x": -383.608,
+    "y": 196.111
   },
   {
-    "x": -115.00896,
-    "y": 116.799965,
+    "id": 152702,
     "name": "Heathen&#39;s Keep",
-    "description": "These Knights have sworn allegiance to a new leader.</br>Aspect of Numbing Wrath"
+    "description": "These Knights have sworn allegiance to a new leader.</br>Aspect of Numbing Wrath",
+    "x": -992.813,
+    "y": 355.347
   },
   {
-    "x": -114.906296,
-    "y": 109.43227,
+    "id": 152702,
     "name": "Light&#39;s Refuge",
-    "description": "In a forgotten home lies a nest made of teeth and armor.</br>Aspect of Bul-Kathos"
+    "description": "In a forgotten home lies a nest made of teeth and armor.</br>Aspect of Bul-Kathos",
+    "x": -891.129,
+    "y": 250.789
   },
   {
-    "x": -90.94792,
-    "y": 144.12286,
+    "id": 152702,
     "name": "Rimescar Cavern",
-    "description": "A cave reclaimed by demons and sickened with their magic. </br>Aspect of Plunging Darkness"
+    "description": "A cave reclaimed by demons and sickened with their magic. </br>Aspect of Plunging Darkness",
+    "x": -1712.0,
+    "y": 401.001
   },
   {
-    "x": -91.36396,
-    "y": 141.10158,
+    "id": 152702,
     "name": "Anica&#39;s Claim",
-    "description": "Inhuman hands carved out these dark tunnels. </br>Stormclaw's Aspect"
+    "description": "Inhuman hands carved out these dark tunnels. </br>Stormclaw's Aspect",
+    "x": -1663.89,
+    "y": 364.537
   },
   {
-    "x": -48.613243,
-    "y": 140.10608,
+    "id": 152702,
     "name": "Untamed Thicket",
-    "description": "Nafain&#39;s corrupted blood pools within."
+    "description": "Nafain&#39;s corrupted blood pools within.",
+    "x": -2248.31,
+    "y": -247.75
   },
   {
-    "x": -79.12758,
-    "y": 95.25927,
+    "id": 152702,
     "name": "Temple of The Primes",
-    "description": "The seat of the Triune&#39;s power, hidden for millennia."
+    "description": "The seat of the Triune&#39;s power, hidden for millennia.",
+    "x": -1193.53,
+    "y": -448.352
   },
   {
-    "x": -15.919327,
-    "y": 96.405,
+    "id": 152702,
     "name": "Flooded Depths",
-    "description": "More than the waters have made claim to these shipwrecks.</br>Aspect of Empowering Reaper"
+    "description": "More than the waters have made claim to these shipwrecks.</br>Aspect of Empowering Reaper",
+    "x": -2094.25,
+    "y": -1317.0
   },
   {
-    "x": -110.1933,
-    "y": 93.054924,
+    "id": 152702,
     "name": "The Exalted Terrace",
-    "description": "A place of study where Elias shares Lilith&#39;s gifts."
+    "description": "A place of study where Elias shares Lilith&#39;s gifts.",
+    "x": -727.871,
+    "y": -44.3984
   },
   {
-    "x": -49.329857,
-    "y": 81.07064,
+    "id": 152702,
     "name": "Underroot",
-    "description": "Ruins deep under T&#250;r D&#250;lra, its roots thick with rot.</br>Aspect of the Expectant"
+    "description": "Ruins deep under T&#250;r D&#250;lra, its roots thick with rot.</br>Aspect of the Expectant",
+    "x": -1412.0,
+    "y": -1064.0
   },
   {
-    "x": -43.40223,
-    "y": 82.440636,
+    "id": 152702,
     "name": "Wretched Delve",
-    "description": "Demonic plague festers now in the old tombs of T&#250;r D&#250;lra.</br>Aspect of Static Cling"
+    "description": "Demonic plague festers now in the old tombs of T&#250;r D&#250;lra.</br>Aspect of Static Cling",
+    "x": -1514.14,
+    "y": -1127.79
   },
   {
-    "x": -122.915855,
-    "y": 47.156433,
+    "id": 152702,
     "name": "Yshari Sanctum",
-    "description": "Cultists corrupt the ancient Sanctum.</br>Needleflare Aspect"
+    "description": "Cultists corrupt the ancient Sanctum.</br>Needleflare Aspect",
+    "x": 92.6092,
+    "y": -508.74
   },
   {
-    "x": -131.72884,
-    "y": 55.928925,
+    "id": 152702,
     "name": "Renegade&#39;s Retreat",
-    "description": "Renegade knights reap the spoils of Inarius’ crusade.</br>Aspect of Corruption"
+    "description": "Renegade knights reap the spoils of Inarius’ crusade.</br>Aspect of Corruption",
+    "x": 93.176,
+    "y": -262.608
   },
   {
-    "x": -127.44521,
-    "y": 49.442154,
+    "id": 152702,
     "name": "Crusaders&#39; Cathedral",
-    "description": "Knights seized this temple and its undead warriors alike.</br>Stormshifter's Aspect"
+    "description": "Knights seized this temple and its undead warriors alike.</br>Stormshifter's Aspect",
+    "x": 124.012,
+    "y": -413.354
   },
   {
-    "x": -133.18271,
-    "y": 45.25534,
+    "id": 152702,
     "name": "Prison of Caldeum",
-    "description": "Something wicked stirs in the prison.</br>Opportunist's Aspect"
+    "description": "Something wicked stirs in the prison.</br>Opportunist's Aspect",
+    "x": 262.916,
+    "y": -391.65
   },
   {
-    "x": -100.24657,
-    "y": 145.7988,
+    "id": 152702,
     "name": "Condemned Mines",
-    "description": "These unstable tunnels were shut down by the Cathedral."
+    "description": "These unstable tunnels were shut down by the Cathedral.",
+    "x": -1605.31,
+    "y": 554.605
   },
   {
-    "x": -48.098495,
-    "y": 109.74709,
+    "id": 152702,
     "name": "Raethwind Wilds",
-    "description": "Too many have vanished into these woods.</br>Aspect of Inner Calm"
+    "description": "Too many have vanished into these woods.</br>Aspect of Inner Calm",
+    "x": -1830.6,
+    "y": -679.869
   },
   {
-    "x": -38.478996,
-    "y": 110.9547,
+    "id": 152702,
     "name": "Penitent Cairns",
-    "description": "Glenfolk know to avoid grottoes the spirits hold sacred.</br>Death Wish Aspect"
+    "description": "Glenfolk know to avoid grottoes the spirits hold sacred.</br>Death Wish Aspect",
+    "x": -1982.14,
+    "y": -797.605
   },
   {
-    "x": -33.220146,
-    "y": 117.811874,
+    "id": 152702,
     "name": "Vault of The Forsaken",
-    "description": "The voices in these flooded caves lure many to their demise.</br>Requiem Aspect"
+    "description": "The voices in these flooded caves lure many to their demise.</br>Requiem Aspect",
+    "x": -2151.72,
+    "y": -775.234
   },
   {
-    "x": -132.56998,
-    "y": 117.5386,
+    "id": 152702,
     "name": "Foul Undercrypts",
-    "description": "The sealed resting place of the Que-Hegan Sankekur."
+    "description": "The sealed resting place of the Que-Hegan Sankekur.",
+    "x": -757.361,
+    "y": 611.475
   },
   {
-    "x": -133.3569,
-    "y": 117.542595,
+    "id": 152702,
     "name": "Steadfast Barracks",
-    "description": "A nest of savage fanatics, drawn to evil long-buried.</br>Vigorous Aspect"
+    "description": "A nest of savage fanatics, drawn to evil long-buried.</br>Vigorous Aspect",
+    "x": -746.403,
+    "y": 622.545
   },
   {
-    "x": -132.62453,
-    "y": 116.50771,
+    "id": 152702,
     "name": "Akkhan&#39;s Grasp",
-    "description": "Evil and blood seep through the tomb&#39;s ruptured seals.</br>Blighted Aspect"
+    "description": "Evil and blood seep through the tomb&#39;s ruptured seals.</br>Blighted Aspect",
+    "x": -742.169,
+    "y": 597.81
   },
   {
-    "x": -131.51149,
-    "y": 119.16545,
+    "id": 152702,
     "name": "Iron Hold",
-    "description": "A scourge stirs within the bowels of a decaying prison.</br>Fastblood Aspect"
+    "description": "A scourge stirs within the bowels of a decaying prison.</br>Fastblood Aspect",
+    "x": -794.946,
+    "y": 619.43
   },
   {
-    "x": -124.711784,
-    "y": 128.11943,
+    "id": 152702,
     "name": "Hungering Swamp",
-    "description": "A place of great occult power for the witches of Hawezar."
+    "description": "A place of great occult power for the witches of Hawezar.",
+    "x": -1015.44,
+    "y": 649.582
   },
   {
-    "x": -102.77695,
-    "y": 133.49173,
+    "id": 152702,
     "name": "Horadric Vault",
-    "description": "A hall of magical study built upon ancient mage clan ruins."
+    "description": "A hall of magical study built upon ancient mage clan ruins.",
+    "x": -1397.64,
+    "y": 417.767
   },
   {
-    "x": -139.50133,
-    "y": 125.841805,
+    "id": 152702,
     "name": "Slithering Dark",
-    "description": "The deep winding tunnels are home to Hawezar&#39;s serpents."
+    "description": "The deep winding tunnels are home to Hawezar&#39;s serpents.",
+    "x": -776.562,
+    "y": 824.703
   },
   {
-    "x": -112.89805,
-    "y": 128.12665,
+    "id": 152702,
     "name": "Oblivion",
-    "description": "The demons of Eriman&#39;s Pyre fled to this crumbling prison.</br>Aspect of Shared Misery"
+    "description": "The demons of Eriman&#39;s Pyre fled to this crumbling prison.</br>Aspect of Shared Misery",
+    "x": -1180.89,
+    "y": 484.334
   },
   {
-    "x": -49.156883,
-    "y": 127.847084,
+    "id": 152702,
     "name": "Garan Hold",
-    "description": "A once mighty stronghold, doomed to burn.</br>Aspect of the Dire Whirlwind"
+    "description": "A once mighty stronghold, doomed to burn.</br>Aspect of the Dire Whirlwind",
+    "x": -2069.12,
+    "y": -411.722
   },
   {
-    "x": -51.164764,
-    "y": 120.246735,
+    "id": 152702,
     "name": "Luban&#39;s Rest",
-    "description": "A warrior and her followers have risen from their tombs.</br>Cheat's Aspect"
+    "description": "A warrior and her followers have risen from their tombs.</br>Cheat's Aspect",
+    "x": -1934.64,
+    "y": -489.996
   },
   {
-    "x": -48.333527,
-    "y": 115.65432,
+    "id": 152702,
     "name": "Domhainne Tunnels",
-    "description": "Corbach residents hear the screams from the Khazra’s lair.</br>Aspect of Efficiency"
+    "description": "Corbach residents hear the screams from the Khazra’s lair.</br>Aspect of Efficiency",
+    "x": -1909.99,
+    "y": -593.9
   },
   {
-    "x": -40.71649,
-    "y": 131.52986,
+    "id": 152702,
     "name": "Mariner&#39;s Refuge",
-    "description": "The Drowned lure shipwrecked sailors to the depths.</br>Overcharged Aspect"
+    "description": "The Drowned lure shipwrecked sailors to the depths.</br>Overcharged Aspect",
+    "x": -2238.8,
+    "y": -478.311
   },
   {
-    "x": -78.50148,
-    "y": 153.00774,
+    "id": 152702,
     "name": "Kor Valar Ramparts",
-    "description": "A corrupted fortress concealing the sins of the Penitents.</br>Blast-Trapper's Aspect"
+    "description": "A corrupted fortress concealing the sins of the Penitents.</br>Blast-Trapper's Aspect",
+    "x": -2010.56,
+    "y": 351.152
   },
   {
-    "x": -82.58538,
-    "y": 64.116455,
+    "id": 152702,
     "name": "Orbei Monastery Halls",
-    "description": "An old Zakarum monastery where secret knowledge is hoarded."
+    "description": "An old Zakarum monastery where secret knowledge is hoarded.",
+    "x": -709.248,
+    "y": -835.841
   },
   {
-    "x": -51.39258,
-    "y": 130.67007,
+    "id": 152702,
     "name": "Aldurwood",
-    "description": "In this corrupted wood, blood runs like sap from the trees.</br>Aspect of Reanimation"
+    "description": "In this corrupted wood, blood runs like sap from the trees.</br>Aspect of Reanimation",
+    "x": -2077.34,
+    "y": -340.919
   },
   {
-    "x": -46.19558,
-    "y": 146.08345,
+    "id": 152702,
     "name": "Jalal&#39;s Vigil",
-    "description": "A forest, soured by the agony of its own protector.</br>Bladedancer's Aspect"
+    "description": "A forest, soured by the agony of its own protector.</br>Bladedancer's Aspect",
+    "x": -2365.81,
+    "y": -197.927
   },
   {
-    "x": -139.50133,
-    "y": 125.841805,
+    "id": 152702,
     "name": "Serpent&#39;s Lair",
-    "description": "Once the seat of Mohlon&#39;s throne. They want another queen.</br>Aspect of Three Curses"
+    "description": "Once the seat of Mohlon&#39;s throne. They want another queen.</br>Aspect of Three Curses",
+    "x": -776.562,
+    "y": 824.703
   },
   {
-    "x": -103.635025,
-    "y": 136.39677,
+    "id": 152702,
     "name": "Darkened Holt",
-    "description": "An arcane mist shrouds these forested paths."
+    "description": "An arcane mist shrouds these forested paths.",
+    "x": -1426.29,
+    "y": 470.437
   },
   {
-    "x": -20.621994,
-    "y": 105.255165,
+    "id": 152702,
     "name": "Mithering Descent",
-    "description": "A hidden recess leading to the hair-lined depths."
+    "description": "A hidden recess leading to the hair-lined depths.",
+    "x": -2152.3,
+    "y": -1127.31
   },
   {
-    "x": -87.22716,
-    "y": 125.06523,
+    "id": 152702,
     "name": "Cathedral of Light",
-    "description": "Were you ever truly welcome here?"
+    "description": "Were you ever truly welcome here?",
+    "x": -1497.34,
+    "y": 82.1869
   },
   {
-    "x": -132.55562,
-    "y": 117.558464,
+    "id": 152702,
     "name": "Foul Undercrypts",
-    "description": "The sealed resting place of the Que-Hegan Sankekur."
+    "description": "The sealed resting place of the Que-Hegan Sankekur.",
+    "x": -757.84,
+    "y": 611.552
   },
   {
-    "x": -66.66214,
-    "y": 101.099335,
+    "id": 152702,
     "name": "Demon&#39;s Wake",
-    "description": "The keep still burns in the wake of Lilith’s attack.</br>Aspect of Uncanny Treachery"
+    "description": "The keep still burns in the wake of Lilith’s attack.</br>Aspect of Uncanny Treachery",
+    "x": -1449.74,
+    "y": -541.083
   },
   {
-    "x": -70.82965,
-    "y": 98.89448,
+    "id": 152702,
     "name": "Broken Bulwark",
-    "description": "Once part of Donan&#39;s estate, and razed with the rest.</br>Ghostwalker Aspect"
+    "description": "Once part of Donan&#39;s estate, and razed with the rest.</br>Ghostwalker Aspect",
+    "x": -1360.55,
+    "y": -513.613
   },
   {
-    "x": -114.951164,
-    "y": 135.09532,
+    "id": 152702,
     "name": "Fetid Mausoleum",
-    "description": "A forgotten tomb for the restless dead of Eridu.</br>Snowguard's Aspect"
+    "description": "A forgotten tomb for the restless dead of Eridu.</br>Snowguard's Aspect",
+    "x": -1249.69,
+    "y": 610.606
   },
   {
-    "x": -96.556496,
-    "y": 85.71471,
+    "id": 152702,
     "name": "Buried Halls",
-    "description": "The Triune fight to reclaim these ancient halls.</br>Rapid Aspect"
+    "description": "The Triune fight to reclaim these ancient halls.</br>Rapid Aspect",
+    "x": -816.0,
+    "y": -338.0
   },
   {
-    "x": -67.4876,
-    "y": 85.553375,
+    "id": 152702,
     "name": "Path of the Blind",
-    "description": "The bloodstained initiation grounds for Triune aspirants.</br>Aspect of Bursting Bones"
+    "description": "The bloodstained initiation grounds for Triune aspirants.</br>Aspect of Bursting Bones",
+    "x": -1220.6,
+    "y": -747.116
   },
   {
-    "x": -83.908394,
-    "y": 82.97685,
+    "id": 152702,
     "name": "Grinning Labyrinth",
-    "description": "These labyrinthine halls have broken far greater warriors.</br>Aspect of the Calm Breeze"
+    "description": "These labyrinthine halls have broken far greater warriors.</br>Aspect of the Calm Breeze",
+    "x": -954.707,
+    "y": -553.347
   },
   {
-    "x": -102.2581,
-    "y": 99.12754,
+    "id": 152702,
     "name": "Betrayer&#39;s Row",
-    "description": "The twisted remains of a town driven mad by envy. </br>Aspect of Potent Blood"
+    "description": "The twisted remains of a town driven mad by envy. </br>Aspect of Potent Blood",
+    "x": -923.929,
+    "y": -70.4678
   },
   {
-    "x": -50.446693,
-    "y": 105.275635,
+    "id": 152702,
     "name": "Stockades",
-    "description": "After a riot, this prison was walled off and made a tomb.</br>Crashstone Aspect"
+    "description": "After a riot, this prison was walled off and made a tomb.</br>Crashstone Aspect",
+    "x": -1735.15,
+    "y": -709.587
   },
   {
-    "x": -121.77695,
-    "y": 61.143143,
+    "id": 152702,
     "name": "Mahjoob&#39;s Safehouse",
-    "description": "A place of reprieve for the Kehjistani guide."
+    "description": "A place of reprieve for the Kehjistani guide.",
+    "x": -119.094,
+    "y": -328.918
   },
   {
-    "x": -146.52737,
-    "y": 94.16009,
-    "name": "Forgotten Cave"
+    "id": 152702,
+    "name": "Forgotten Cave",
+    "x": -234.795,
+    "y": 479.614
   },
   {
-    "x": -82.71015,
-    "y": 45.110367,
+    "id": 152702,
     "name": "Carrion Fields",
-    "description": "The defilers of this land were cursed to wander it forever.</br>Aspect of the Iron Warrior"
+    "description": "The defilers of this land were cursed to wander it forever.</br>Aspect of the Iron Warrior",
+    "x": -441.486,
+    "y": -1100.11
   },
   {
-    "x": -94.36435,
-    "y": 35.765366,
+    "id": 152702,
     "name": "Komdor Temple",
-    "description": "A Triune sect cursed to forever walk Sanctuary as goatmen. </br>Aspect of the Bounding Conduit"
+    "description": "A Triune sect cursed to forever walk Sanctuary as goatmen. </br>Aspect of the Bounding Conduit",
+    "x": -147.574,
+    "y": -1067.79
   },
   {
-    "x": -96.238266,
-    "y": 81.34048,
+    "id": 152702,
     "name": "Ancient&#39;s Lament",
-    "description": "A tomb and prison for the anguished souls trapped within. </br>Aspect of Volatile Shadows"
+    "description": "A tomb and prison for the anguished souls trapped within. </br>Aspect of Volatile Shadows",
+    "x": -759.231,
+    "y": -403.677
   },
   {
-    "x": -107.335815,
-    "y": 76.08012,
+    "id": 152702,
     "name": "Champion&#39;s Demise",
-    "description": "Once beautiful homelands now overrun with demons.</br>Aspect of the Umbral"
+    "description": "Once beautiful homelands now overrun with demons.</br>Aspect of the Umbral",
+    "x": -530.28,
+    "y": -321.978
   },
   {
-    "x": -101.600136,
-    "y": 70.02213,
+    "id": 152702,
     "name": "Sealed Archives",
-    "description": "An ancient mage hall. Once refuge, now graveyard. </br>Aspect of Mending Stone"
+    "description": "An ancient mage hall. Once refuge, now graveyard. </br>Aspect of Mending Stone",
+    "x": -525.769,
+    "y": -487.046
   },
   {
-    "x": -95.108505,
-    "y": 72.83852,
+    "id": 152702,
     "name": "Bloodsoaked Crag",
-    "description": "A feasting ground for the flesh-hungry. </br>Shepherd's Aspect"
+    "description": "A feasting ground for the flesh-hungry. </br>Shepherd's Aspect",
+    "x": -656.047,
+    "y": -538.486
   },
   {
-    "x": -104.12715,
-    "y": 66.417694,
+    "id": 152702,
     "name": "Charnel House",
-    "description": "Bodies are stored here, some still alive. Food for demons.</br>Aspect of Perpetual Stomping"
+    "description": "Bodies are stored here, some still alive. Food for demons.</br>Aspect of Perpetual Stomping",
+    "x": -439.951,
+    "y": -502.126
   },
   {
-    "x": -113.7108,
-    "y": 96.28858,
+    "id": 152702,
     "name": "Fading Echo",
-    "description": "These ruins have become host to a growing army of demons. </br>Skinwalker's Aspect"
+    "description": "These ruins have become host to a growing army of demons. </br>Skinwalker's Aspect",
+    "x": -723.898,
+    "y": 50.0932
   },
   {
-    "x": -132.88918,
-    "y": 118.297325,
+    "id": 152702,
     "name": "Defiled Halls",
-    "description": "Once a monument to faith, evil has left these halls twisted."
+    "description": "Once a monument to faith, evil has left these halls twisted.",
+    "x": -763.513,
+    "y": 626.562
   },
   {
-    "x": -90.044716,
-    "y": 159.50392,
+    "id": 152702,
     "name": "Sanguine Chapel",
-    "description": "A snowed in abandoned Zakarum church invaded by vampires.</br>Energizing Aspect"
+    "description": "A snowed in abandoned Zakarum church invaded by vampires.</br>Energizing Aspect",
+    "x": -1939.92,
+    "y": 603.638
   },
   {
-    "x": -102.888504,
-    "y": 95.417595,
+    "id": 152702,
     "name": "Saraan Caldera",
-    "description": "A curse festers beneath the Ruins of Saraan."
+    "description": "A curse festers beneath the Ruins of Saraan.",
+    "x": -863.18,
+    "y": -113.57
   },
   {
-    "x": -64.30056,
-    "y": 124.433754,
+    "id": 152702,
     "name": "Abandoned Barrow",
-    "description": "Abandoned by the Druids since the time of Astaroth"
+    "description": "Abandoned by the Druids since the time of Astaroth",
+    "x": -1809.39,
+    "y": -247.54
   },
   {
-    "x": -95.63661,
-    "y": 134.93292,
+    "id": 152702,
     "name": "Immortal Emanation",
-    "description": "A hunting ground, when prey is foolish enough to enter. </br>Mangled Aspect"
+    "description": "A hunting ground, when prey is foolish enough to enter. </br>Mangled Aspect",
+    "x": -1517.75,
+    "y": 338.0
   },
   {
-    "x": -124.71182,
-    "y": 128.11948,
+    "id": 152702,
     "name": "Hungering Swamp",
-    "description": "Powerful ritual magic suffuses this place."
+    "description": "Powerful ritual magic suffuses this place.",
+    "x": -1015.44,
+    "y": 649.583
   },
   {
-    "x": -95.70788,
-    "y": 73.868645,
+    "id": 152702,
     "name": "Wasting Hollow",
-    "description": "A bloodstained feeding ground of the cannibal horde."
+    "description": "A bloodstained feeding ground of the cannibal horde.",
+    "x": -662.076,
+    "y": -515.679
   },
   {
-    "x": -116.160934,
-    "y": 35.717102,
+    "id": 152702,
     "name": "Vizjerei Athenaeum",
-    "description": "Ruins belonging to the once great Vizjerei Mage Clan."
+    "description": "Ruins belonging to the once great Vizjerei Mage Clan.",
+    "x": 158.174,
+    "y": -763.393
   },
   {
-    "x": -95.17692,
-    "y": 125.21439,
+    "id": 152702,
     "name": "Kyovashad Sewers",
-    "description": "The cavernous, filth-strewn caves beneath Kyovashad."
+    "description": "The cavernous, filth-strewn caves beneath Kyovashad.",
+    "x": -1388.16,
+    "y": 195.542
   },
   {
-    "x": -61.415527,
-    "y": 67.476,
+    "id": 152702,
     "name": "Charnel Cave",
-    "description": "P:ermeated by a faint scent of desiccating remains"
+    "description": "P:ermeated by a faint scent of desiccating remains",
+    "x": -1052.57,
+    "y": -1085.12
   },
   {
-    "x": -48.9069,
-    "y": 80.348305,
+    "id": 152702,
     "name": "Lair of the Despoiler",
-    "description": "A dark corruption has entered these halls."
+    "description": "A dark corruption has entered these halls.",
+    "x": -1407.81,
+    "y": -1080.03
   },
   {
-    "x": -151.30206,
-    "y": 146.34001,
+    "id": 152702,
     "name": "Backwater Storage Cellar",
-    "description": "A simple hole in the ground used by the people of Backwater."
+    "description": "A simple hole in the ground used by the people of Backwater.",
+    "x": -898.295,
+    "y": 1276.77
   },
   {
-    "x": -81.68421,
-    "y": 62.949722,
+    "id": 152702,
     "name": "Forgotten Depths",
-    "description": "A shadow lies below these hallowed stones.</br>Aspect of Biting Cold"
+    "description": "A shadow lies below these hallowed stones.</br>Aspect of Biting Cold",
+    "x": -705.531,
+    "y": -864.784
   },
   {
-    "x": -89.585236,
-    "y": 157.89413,
+    "id": 152702,
     "name": "Alabaster Monastery",
-    "description": "Inarius meditates in the solitude of this holy place."
+    "description": "Inarius meditates in the solitude of this holy place.",
+    "x": -1923.82,
+    "y": 574.676
   },
   {
-    "x": -37.924698,
-    "y": 112.18016,
+    "id": 152702,
     "name": "Weeping Cairns",
-    "description": "A silent resting place of Scosglen&#39;s deceased, now awoken."
+    "description": "A silent resting place of Scosglen&#39;s deceased, now awoken.",
+    "x": -2007.05,
+    "y": -788.211
   },
   {
-    "x": -84.51213,
-    "y": 143.21495,
+    "id": 152702,
     "name": "The Hallowed Glacier",
-    "description": "The Glacial Tunnels beneath the Bear Tribe encampment."
+    "description": "The Glacial Tunnels beneath the Bear Tribe encampment.",
+    "x": -1789.37,
+    "y": 298.216
   },
   {
-    "x": -91.55976,
-    "y": 85.31753,
+    "id": 152702,
     "name": "Offal Pits",
-    "description": "These filthy caves hide a secret path into Guulrahn Palace."
+    "description": "These filthy caves hide a secret path into Guulrahn Palace.",
+    "x": -880.377,
+    "y": -413.495
   }
 ]

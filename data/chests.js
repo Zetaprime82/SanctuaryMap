@@ -1,137 +1,164 @@
 var chests = [
   {
-    "x": -95.99263,
-    "y": 134.19223,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -1502.4,
+    "y": 332.616
   },
   {
-    "x": -87.876366,
-    "y": 129.66762,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -1552.67,
+    "y": 155.69
   },
   {
-    "x": -24.66269,
-    "y": 103.80872,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -2075.5,
+    "y": -1091.0
   },
   {
-    "x": -27.777435,
-    "y": 86.88179,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -1794.99,
+    "y": -1284.32
   },
   {
-    "x": -28.398743,
-    "y": 107.06822,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -2068.83,
+    "y": -993.088
   },
   {
-    "x": -38.84855,
-    "y": 91.169716,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -1700.05,
+    "y": -1069.35
   },
   {
-    "x": -53.90381,
-    "y": 83.22966,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -1378.2,
+    "y": -969.763
   },
   {
-    "x": -54.05182,
-    "y": 71.946815,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -1218.21,
+    "y": -1125.61
   },
   {
-    "x": -46.68953,
-    "y": 86.475975,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -1524.61,
+    "y": -1025.3
   },
   {
-    "x": -63.03083,
-    "y": 87.18533,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -1305.82,
+    "y": -786.653
   },
   {
-    "x": -75.891556,
-    "y": 112.62077,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -1481.82,
+    "y": -250.647
   },
   {
-    "x": -77.87293,
-    "y": 109.68158,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -1412.95,
+    "y": -264.053
   },
   {
-    "x": -116.8573,
-    "y": 33.382233,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": 200.6,
+    "y": -786.326
   },
   {
-    "x": -129.0278,
-    "y": 32.969376,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": 376.721,
+    "y": -621.762
   },
   {
-    "x": -117.174805,
-    "y": 44.6837,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": 46.8649,
+    "y": -623.703
   },
   {
-    "x": -111.00173,
-    "y": 32.34485,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": 133.163,
+    "y": -882.802
   },
   {
-    "x": -115.75303,
-    "y": 42.415085,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": 58.7174,
+    "y": -675.355
   },
   {
-    "x": -120.56802,
-    "y": 102.662384,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -717.132,
+    "y": 235.279
   },
   {
-    "x": -111.447815,
-    "y": 121.64581,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -1110.48,
+    "y": 373.328
   },
   {
-    "x": -87.06683,
-    "y": 83.619835,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -919.5,
+    "y": -500.141
   },
   {
-    "x": -76.0028,
-    "y": 82.51125,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -1058.84,
+    "y": -670.513
   },
   {
-    "x": -105.353615,
-    "y": 56.153366,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -279.122,
+    "y": -628.623
   },
   {
-    "x": -110.72005,
-    "y": 78.3445,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -514.606,
+    "y": -242.918
   },
   {
-    "x": -156.30618,
-    "y": 102.489944,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -214.515,
+    "y": 733.069
   },
   {
-    "x": -141.94843,
-    "y": 112.44319,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": -554.78,
+    "y": 671.422
   },
   {
-    "x": -154.82233,
-    "y": 42.729874,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": 601.139,
+    "y": -124.122
   },
   {
-    "x": -152.23904,
-    "y": 27.250854,
-    "name": "Tortured Gift of Mysteries"
+    "id": 0,
+    "name": "Tortured Gift of Mysteries",
+    "x": 781.632,
+    "y": -376.928
   }
 ]

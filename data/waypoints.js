@@ -1,177 +1,212 @@
 var waypoints = [
   {
-    "x": -81.54539,
-    "y": 72.64054,
-    "name": "The Onyx Watchtower"
+    "id": 624865,
+    "name": "The Onyx Watchtower",
+    "x": -843.11,
+    "y": -731.091
   },
   {
-    "x": -63.86344,
-    "y": 79.4057,
-    "name": "Farobru"
+    "id": 185234,
+    "name": "Farobru",
+    "x": -1185.28,
+    "y": -883.886
   },
   {
-    "x": -111.73102,
-    "y": 44.89554,
-    "name": "Altar of Ruin"
+    "id": 1311530,
+    "name": "Altar of Ruin",
+    "x": -32.2934,
+    "y": -696.931
   },
   {
-    "x": -93.34104,
-    "y": 124.10299,
-    "name": "Kyovashad"
+    "id": 445553,
+    "name": "Kyovashad",
+    "x": -1398.3,
+    "y": 154.291
   },
   {
-    "x": -79.79198,
-    "y": 88.202354,
-    "name": "Fate’s Retreat"
+    "id": 978611,
+    "name": "Fate’s Retreat",
+    "x": -1085.46,
+    "y": -537.824
   },
   {
-    "x": -107.13829,
-    "y": 122.03609,
-    "name": "Margrave"
+    "id": 592518,
+    "name": "Margrave",
+    "x": -1176.26,
+    "y": 318.473
   },
   {
-    "x": -82.63422,
-    "y": 114.88083,
-    "name": "Menestad"
+    "id": 708251,
+    "name": "Menestad",
+    "x": -1419.08,
+    "y": -124.642
   },
   {
-    "x": -86.15445,
-    "y": 142.51453,
-    "name": "Bear Tribe Refuge"
+    "id": 533326,
+    "name": "Bear Tribe Refuge",
+    "x": -1756.58,
+    "y": 311.399
   },
   {
-    "x": -108.421234,
-    "y": 137.70494,
-    "name": "Yelesna"
+    "id": 537592,
+    "name": "Yelesna",
+    "x": -1377.61,
+    "y": 555.736
   },
   {
-    "x": -96.4136,
-    "y": 44.8826,
-    "name": "Alzuuda"
+    "id": 496346,
+    "name": "Alzuuda",
+    "x": -246.5,
+    "y": -911.5
   },
   {
-    "x": -106.763336,
-    "y": 87.44048,
-    "name": "Ruins of Qara-Yisu"
+    "id": 1327338,
+    "name": "Ruins of Qara-Yisu",
+    "x": -697.296,
+    "y": -170.987
   },
   {
-    "x": -70.764114,
-    "y": 64.942276,
-    "name": "Ked Bardu"
+    "id": 216295,
+    "name": "Ked Bardu",
+    "x": -886.261,
+    "y": -989.737
   },
   {
-    "x": -33.014168,
-    "y": 87.76739,
-    "name": "Marowen"
+    "id": 163329,
+    "name": "Marowen",
+    "x": -1734.09,
+    "y": -1198.63
   },
   {
-    "x": -63.36921,
-    "y": 129.40466,
-    "name": "Under the Fat Goose Inn"
+    "id": 978283,
+    "name": "Under the Fat Goose Inn",
+    "x": -1892.0,
+    "y": -191.001
   },
   {
-    "x": -42.295013,
-    "y": 105.816956,
-    "name": "Braestaig"
+    "id": 523650,
+    "name": "Braestaig",
+    "x": -1856.82,
+    "y": -816.104
   },
   {
-    "x": -57.8507,
-    "y": 132.32263,
-    "name": "Tirmair"
+    "id": 758462,
+    "name": "Tirmair",
+    "x": -2010.08,
+    "y": -227.399
   },
   {
-    "x": -57.336823,
-    "y": 106.3028,
-    "name": "Cerrigar"
+    "id": 486744,
+    "name": "Cerrigar",
+    "x": -1653.09,
+    "y": -598.774
   },
   {
-    "x": -152.07959,
-    "y": 146.1948,
-    "name": "Backwater"
+    "id": 674079,
+    "name": "Backwater",
+    "x": -885.38,
+    "y": 1285.62
   },
   {
-    "x": -129.17734,
-    "y": 76.82096,
-    "name": "Tarsarak"
+    "id": 575415,
+    "name": "Tarsarak",
+    "x": -234.948,
+    "y": -5.90737
   },
   {
-    "x": -124.27292,
-    "y": 39.282043,
-    "name": "Iron Wolves Encampment"
+    "id": 912124,
+    "name": "Iron Wolves Encampment",
+    "x": 221.816,
+    "y": -599.959
   },
   {
-    "x": -141.95801,
-    "y": 53.78122,
-    "name": "Denshar"
+    "id": 569157,
+    "name": "Denshar",
+    "x": 266.407,
+    "y": -149.497
   },
   {
-    "x": -120.61589,
-    "y": 111.41246,
-    "name": "Wejinhani"
+    "id": 603243,
+    "name": "Wejinhani",
+    "x": -838.931,
+    "y": 358.418
   },
   {
-    "x": -97.65092,
-    "y": 107.89822,
-    "name": "Nostrava"
+    "id": 545919,
+    "name": "Nostrava",
+    "x": -1111.17,
+    "y": -12.1941
   },
   {
-    "x": -49.09015,
-    "y": 80.79164,
-    "name": "Túr Dúlra"
+    "id": 578966,
+    "name": "Túr Dúlra",
+    "x": -1411.45,
+    "y": -1071.26
   },
   {
-    "x": -133.44621,
-    "y": 118.19669,
-    "name": "Ruins of Rakhat Keep: Inner Court"
+    "id": 1013698,
+    "name": "Ruins of Rakhat Keep: Inner Court",
+    "x": -754.308,
+    "y": 632.95
   },
   {
-    "x": -122.975044,
-    "y": 46.45294,
-    "name": "Imperial Library"
+    "id": 1103421,
+    "name": "Imperial Library",
+    "x": 103.284,
+    "y": -517.758
   },
   {
-    "x": -48.09146,
-    "y": 122.104004,
-    "name": "Corbach"
+    "id": 143038,
+    "name": "Corbach",
+    "x": -2003.65,
+    "y": -507.016
   },
   {
-    "x": -143.16672,
-    "y": 90.854576,
-    "name": "Zarbinzet"
+    "id": 673509,
+    "name": "Zarbinzet",
+    "x": -235.567,
+    "y": 386.312
   },
   {
-    "x": -147.14029,
-    "y": 29.435928,
-    "name": "Gea Kul"
+    "id": 747179,
+    "name": "Gea Kul",
+    "x": 679.685,
+    "y": -417.709
   },
   {
-    "x": -152.56528,
-    "y": 117.73637,
-    "name": "Vyeresz"
+    "id": 675609,
+    "name": "Vyeresz",
+    "x": -480.268,
+    "y": 894.104
   },
   {
-    "x": -63.454697,
-    "y": 99.89598,
-    "name": "Firebreak Manor"
+    "id": 525294,
+    "name": "Firebreak Manor",
+    "x": -1477.79,
+    "y": -602.818
   },
   {
-    "x": -117.74375,
-    "y": 141.73892,
-    "name": "The Tree of Whispers"
+    "id": 591191,
+    "name": "The Tree of Whispers",
+    "x": -1303.59,
+    "y": 742.678
   },
   {
-    "x": -106.82661,
-    "y": 109.112465,
-    "name": "Nevesk"
+    "id": 448837,
+    "name": "Nevesk",
+    "x": -999.739,
+    "y": 133.227
   },
   {
-    "x": -90.808395,
-    "y": 88.494255,
-    "name": "Hidden Overlook"
+    "id": 286932,
+    "name": "Hidden Overlook",
+    "x": -935.356,
+    "y": -379.549
   },
   {
-    "x": -110.65118,
-    "y": 64.4713,
-    "name": "Jirandai"
+    "id": 287458,
+    "name": "Jirandai",
+    "x": -321.396,
+    "y": -438.056
   }
 ]
