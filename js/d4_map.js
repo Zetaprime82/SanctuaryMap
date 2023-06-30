@@ -11,12 +11,13 @@ var waypointIcon = { url: 'img/mapicons/Waypoint.webp', size: [30, 30] };
 var chestIcon = { url: 'img/mapicons/Helltide_Chest.webp', size: [50, 50] };
 var eventIcon = { url: 'img/mapicons/Event.webp', size: [40, 40] };
 var questIcon = { url: 'img/mapicons/Side_Quest.webp', size: [40, 40] };
+var worldbossIcon = { url: 'img/mapicons/World_Boss.webp', size: [40, 40] };
 var namesToSearch = [];
 var markers = [];
 var locationMap = [];
-var overlayMapNames = ['Waypoints', 'Dungeons', 'Altars of Lilith', 'Cellars', 'Helltide Chests', 'Events', 'Side Quests'];
-var icons = [waypointIcon, dungeonIcon, altarIcon, cellarIcon, chestIcon, eventIcon, questIcon];
-var groupings = [waypoints, dungeons, altars, cellars, chests, events, sidequests];
+var overlayMapNames = ['Waypoints', 'Dungeons', 'Altars of Lilith', 'Cellars', 'Helltide Chests', 'Events', 'Side Quests', 'World Boss'];
+var icons = [waypointIcon, dungeonIcon, altarIcon, cellarIcon, chestIcon, eventIcon, questIcon, worldbossIcon];
+var groupings = [waypoints, dungeons, altars, cellars, chests, events, sidequests, worldboss];
 var overlayMaps = {};
 
 var urlParams = new URLSearchParams(window.location.search);
