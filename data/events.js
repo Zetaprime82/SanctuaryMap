@@ -444,19 +444,6 @@ var events = [
     "y": -864.784
   },
   {
-  {
-    "id": 1361103,
-    "name": "Legion Event</br>The forces of evil are amassing at this location. Decimate their ranks before they can fully organize.</br>Complete the Legion Event",
-    "x": -628.53,
-    "y": -1159.01
-  },
-  {
-    "id": 1363002,
-    "name": "Legion Event</br>The forces of evil are amassing at this location. Decimate their ranks before they can fully organize.</br>Complete the Legion Event",
-    "x": -395.674,
-    "y": -585.139
-  },
-  {
     "id": 1245280,
     "name": "Ritual: Untamed Scarps</br>The Tree of Whisper&#39;s influence in this area has waned. Perform a series of rituals to put the land back under its gaze.</br>Invoke rituals: {LEFT}",
     "x": -421.771,
@@ -1039,12 +1026,6 @@ var events = [
     "y": -126.56
   },
   {
-    "id": 1302586,
-    "name": "Legion Event</br>The forces of evil are amassing at this location. Decimate their ranks before they can fully organize.</br>Complete the Legion Event",
-    "x": -1595.48,
-    "y": -128.734
-  },
-  {
     "id": 1245863,
     "name": "Ritual: Frigid Expanse</br>The Tree of Whisper&#39;s influence in this area has waned. Perform a series of rituals to put the land back under its gaze.</br>Invoke rituals: {LEFT}",
     "x": -1613.61,
@@ -1391,18 +1372,6 @@ var events = [
     "name": "Steadfast Barracks</br>Many lost souls are bound to the Tree by the echoes of their past sins. Returning to the site of transgression to cleanse it of evil may yet bring them penance.</br>Complete Steadfast Barracks",
     "x": -746.403,
     "y": 622.545
-  },
-  {
-    "id": 1363047,
-    "name": "Legion Event</br>The forces of evil are amassing at this location. Decimate their ranks before they can fully organize.</br>Complete the Legion Event",
-    "x": -498.19,
-    "y": 212.133
-  },
-  {
-    "id": 1363037,
-    "name": "Legion Event</br>The forces of evil are amassing at this location. Decimate their ranks before they can fully organize.</br>Complete the Legion Event",
-    "x": -575.034,
-    "y": 1300.77
   },
   {
     "id": 1225050,
@@ -1919,18 +1888,6 @@ var events = [
     "name": "The Swamped Hideout</br>Many lost souls are bound to the Tree by the echoes of their past sins. Returning to the site of transgression to cleanse it of evil may yet bring them penance.</br>Clear the Swamped Hideout",
     "x": -664.77,
     "y": 742.077
-  },
-  {
-    "id": 1361067,
-    "name": "Legion Event</br>The forces of evil are amassing at this location. Decimate their ranks before they can fully organize.</br>Complete the Legion Event",
-    "x": -167.478,
-    "y": -262.1
-  },
-  {
-    "id": 1361090,
-    "name": "Legion Event</br>The forces of evil are amassing at this location. Decimate their ranks before they can fully organize.</br>Complete the Legion Event",
-    "x": 323.12,
-    "y": -423.723
   },
   {
     "id": 968109,
@@ -3011,12 +2968,6 @@ var events = [
     "name": "Jalal&#39;s Vigil</br>Many lost souls are bound to the Tree by the echoes of their past sins. Returning to the site of transgression to cleanse it of evil may yet bring them penance.</br>Complete Jalal&#39;s Vigil",
     "x": -2365.81,
     "y": -197.927
-  },
-  {
-    "id": 1361004,
-    "name": "Legion Event</br>The forces of evil are amassing at this location. Decimate their ranks before they can fully organize.</br>Complete the Legion Event",
-    "x": -1757.78,
-    "y": -887.58
   },
   {
     "id": 1216024,
