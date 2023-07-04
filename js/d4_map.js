@@ -1,10 +1,6 @@
 var mapBounds = L.latLngBounds(L.latLng(-800, -500), L.latLng(500, 800));
 var map = new L.Map('map', { minZoom: 0, maxZoom: 18, crs: L.CRS.Simple, attributionControl: false, zoomControl: false, preferCanvas: true, maxBounds: mapBounds }).setView([-100, 100], 3);
-<img src="img/zone/zone_dry_steppes.png" class="leaflet-marker-icon active zoneName undefined leaflet-zoom-animated leaflet-interactive" style="margin-left: -75px; margin-top: -10px; width: 150px; height: 20px; transform: translate3d(701px, 304px, 0px); z-index: 304; outline: none;" alt="Marker" tabindex="0" role="button">
-<img src="img/zone/zone_kehjistan.png" class="leaflet-marker-icon active zoneName undefined leaflet-zoom-animated leaflet-interactive" style="margin-left: -75px; margin-top: -10px; width: 150px; height: 20px; transform: translate3d(649px, 467px, 0px); z-index: 467;" alt="Marker" tabindex="0" role="button">
-<img src="img/zone/zone_hawezar.png" class="leaflet-marker-icon active zoneName undefined leaflet-zoom-animated leaflet-interactive" style="margin-left: -75px; margin-top: -10px; width: 150px; height: 20px; transform: translate3d(1103px, 570px, 0px); z-index: 570;" alt="Marker" tabindex="0" role="button">
-<img src="img/zone/zone_fractured_peaks.png" class="leaflet-marker-icon active zoneName undefined leaflet-zoom-animated leaflet-interactive" style="margin-left: -75px; margin-top: -10px; width: 150px; height: 20px; transform: translate3d(1101px, 314px, 0px); z-index: 314;" alt="Marker" tabindex="0" role="button">
-<img src="img/zone/zone_scosglen.png" class="leaflet-marker-icon active zoneName undefined leaflet-zoom-animated leaflet-interactive" style="margin-left: -75px; margin-top: -10px; width: 150px; height: 20px; transform: translate3d(1003px, 180px, 0px); z-index: 180;" alt="Marker" tabindex="0" role="button">
+
 var tileLayerBounds = L.latLngBounds(L.latLng(-185, 5), L.latLng(-5, 185));
 var tileLayer = L.tileLayer('img/Sanctuary/{z}/{x}/{y}.png', { minZoom: 0, maxZoom: 18, noWrap: true, tms: false, maxNativeZoom: 4, bounds: tileLayerBounds }).addTo(map);
 
