@@ -444,11 +444,6 @@ var events = [
     "y": -864.784
   },
   {
-    "id": 596773,
-    "name": "World Boss</br>Ashava the Pestilent, Avarice the Gold-cursed, and the Wandering Death have occasionally been seen at this location.</br>Slay the World Boss",
-    "x": -907.619,
-    "y": -140.395
-  },
   {
     "id": 1361103,
     "name": "Legion Event</br>The forces of evil are amassing at this location. Decimate their ranks before they can fully organize.</br>Complete the Legion Event",
@@ -1044,12 +1039,6 @@ var events = [
     "y": -126.56
   },
   {
-    "id": 608339,
-    "name": "World Boss</br>Ashava the Pestilent, Avarice the Gold-cursed, and the Wandering Death have occasionally been seen at this location.</br>Slay the World Boss",
-    "x": -1778.52,
-    "y": 702.676
-  },
-  {
     "id": 1302586,
     "name": "Legion Event</br>The forces of evil are amassing at this location. Decimate their ranks before they can fully organize.</br>Complete the Legion Event",
     "x": -1595.48,
@@ -1402,12 +1391,6 @@ var events = [
     "name": "Steadfast Barracks</br>Many lost souls are bound to the Tree by the echoes of their past sins. Returning to the site of transgression to cleanse it of evil may yet bring them penance.</br>Complete Steadfast Barracks",
     "x": -746.403,
     "y": 622.545
-  },
-  {
-    "id": 798443,
-    "name": "World Boss</br>Ashava the Pestilent, Avarice the Gold-cursed, and the Wandering Death have occasionally been seen at this location.</br>Slay the World Boss",
-    "x": -219.959,
-    "y": 616.626
   },
   {
     "id": 1363047,
@@ -1936,12 +1919,6 @@ var events = [
     "name": "The Swamped Hideout</br>Many lost souls are bound to the Tree by the echoes of their past sins. Returning to the site of transgression to cleanse it of evil may yet bring them penance.</br>Clear the Swamped Hideout",
     "x": -664.77,
     "y": 742.077
-  },
-  {
-    "id": 638978,
-    "name": "World Boss</br>Ashava the Pestilent, Avarice the Gold-cursed, and the Wandering Death have occasionally been seen at this location.</br>Slay the World Boss",
-    "x": -406.737,
-    "y": -232.911
   },
   {
     "id": 1361067,
@@ -3034,12 +3011,6 @@ var events = [
     "name": "Jalal&#39;s Vigil</br>Many lost souls are bound to the Tree by the echoes of their past sins. Returning to the site of transgression to cleanse it of evil may yet bring them penance.</br>Complete Jalal&#39;s Vigil",
     "x": -2365.81,
     "y": -197.927
-  },
-  {
-    "id": 608082,
-    "name": "World Boss</br>Ashava the Pestilent, Avarice the Gold-cursed, and the Wandering Death have occasionally been seen at this location.</br>Slay the World Boss",
-    "x": -2071.69,
-    "y": -600.054
   },
   {
     "id": 1361004,
